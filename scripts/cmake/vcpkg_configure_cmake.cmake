@@ -240,8 +240,8 @@ function(vcpkg_configure_cmake)
     set(rel_command
         ${CMAKE_COMMAND} ${_csc_SOURCE_PATH} "${_csc_OPTIONS}" "${_csc_OPTIONS_RELEASE}"
         -G ${GENERATOR}
-        -DCMAKE_BUILD_TYPE=Release
-        -DCMAKE_INSTALL_PREFIX=${CURRENT_PACKAGES_DIR})
+        -DCMAKE_BUILD_TYPE=Release)
+        # -DCMAKE_INSTALL_PREFIX=${CURRENT_PACKAGES_DIR})
     set(dbg_command
         ${CMAKE_COMMAND} ${_csc_SOURCE_PATH} "${_csc_OPTIONS}" "${_csc_OPTIONS_DEBUG}"
         -G ${GENERATOR}

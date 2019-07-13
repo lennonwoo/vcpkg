@@ -454,15 +454,15 @@ namespace vcpkg::Build
         }
 
         const BuildInfo build_info = read_build_info(fs, paths.build_info_file_path(spec));
-        const size_t error_count =
-            PostBuildLint::perform_all_checks(spec, paths, pre_build_info, build_info, config.port_dir);
+        // const size_t error_count =
+        //     PostBuildLint::perform_all_checks(spec, paths, pre_build_info, build_info, config.port_dir);
 
         auto bcf = create_binary_control_file(*config.scf.core_paragraph, triplet, build_info, abi_tag);
 
-        if (error_count != 0)
-        {
-            return BuildResult::POST_BUILD_CHECKS_FAILED;
-        }
+        // if (error_count != 0)
+        // {
+        //     return BuildResult::POST_BUILD_CHECKS_FAILED;
+        // }
         for (auto&& feature : config.feature_list)
         {
             for (auto&& f_pgh : config.scf.feature_paragraphs)
