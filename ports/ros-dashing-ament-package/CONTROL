@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-package
+Version: 0.7.0
+Description: The parser for the manifest files in the ament buildsystem.
+Build-Depends: 

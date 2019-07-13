@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-cmake-include-directories
+Version: 0.7.3
+Description: The functionality to order include directories according to a chain of prefixes in the ament buildsystem in CMake.
+Build-Depends: ros-dashing-ament-cmake-core, ros-dashing-ros-workspace

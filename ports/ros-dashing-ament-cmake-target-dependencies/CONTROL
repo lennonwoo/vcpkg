@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-cmake-target-dependencies
+Version: 0.7.3
+Description: The ability to add definitions, include directories and libraries of a package to a target in the ament buildsystem in CMake.
+Build-Depends: ros-dashing-ament-cmake-core, ros-dashing-ros-workspace

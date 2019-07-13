@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-cmake-export-definitions
+Version: 0.7.3
+Description: The ability to export definitions to downstream packages in the ament buildsystem.
+Build-Depends: ros-dashing-ament-cmake-core, ros-dashing-ros-workspace

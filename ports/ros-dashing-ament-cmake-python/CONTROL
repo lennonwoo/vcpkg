@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-cmake-python
+Version: 0.7.3
+Description: The ability to use Python in the ament buildsystem in CMake.
+Build-Depends: ros-dashing-ament-cmake-core, ros-dashing-ros-workspace

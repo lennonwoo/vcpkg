@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-cmake-auto
+Version: 0.7.3
+Description: The auto-magic functions for ease to use of the ament buildsystem in CMake.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ros-workspace

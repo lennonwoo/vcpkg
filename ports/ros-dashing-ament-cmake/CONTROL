@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-cmake
+Version: 0.7.3
+Description: The entry point package for the ament buildsystem in CMake.
+Build-Depends: ros-dashing-ament-cmake-core, ros-dashing-ament-cmake-export-dependencies, ros-dashing-ros-workspace

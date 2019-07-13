@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-cmake-export-interfaces
+Version: 0.7.3
+Description: The ability to export interfaces to downstream packages in the ament buildsystem in CMake.
+Build-Depends: ros-dashing-ament-cmake-core, ros-dashing-ros-workspace
