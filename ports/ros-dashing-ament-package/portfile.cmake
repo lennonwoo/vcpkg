@@ -13,7 +13,7 @@ vcpkg_from_github(
 find_package(PythonInterp 3)
 
 if (${PYTHONINTERP_FOUND})
-    set(SETUP_INSTALL_PREFIX ${CURRENT_PACKAGES_DIR})
+    set(SETUP_INSTALL_PREFIX "${SOURCE_PATH}/C/opt/ros/dashing")
     set(SETUP_INSTALL_PYTHONPATH "${SETUP_INSTALL_PREFIX}/Lib/site-packages")
     file(TO_NATIVE_PATH "${SETUP_INSTALL_PREFIX}" SETUP_INSTALL_PREFIX)
     file(TO_NATIVE_PATH "${SETUP_INSTALL_PYTHONPATH}" SETUP_INSTALL_PYTHONPATH)
@@ -29,19 +29,17 @@ if (${PYTHONINTERP_FOUND})
         install --prefix ${SETUP_INSTALL_PREFIX}
         --record install.log
         --single-version-externally-managed
-        bdist_egg --dist-dir .
         )
 
     message(STATUS "CURRENT_PACKAGES_DIR: ${CURRENT_PACKAGES_DIR}")
     message(STATUS "SETUP_INSTALL_PYTHONPATH: ${SETUP_INSTALL_PYTHONPATH}")
     message(STATUS "SETUP_INSTALL_PREFIX: ${SETUP_INSTALL_PREFIX}")
     message(STATUS "INSTALL_CMD: ${INSTALL_CMD}")
-    message(STATUS "ISNTALL_PATH: ${")
-    # execute_process(
-    #     COMMAND ${INSTALL_CMD}
-    #     WORKING_DIRECTORY ${SOURCE_PATH}
-    # )
+    execute_process(
+        COMMAND ${INSTALL_CMD}
+        WORKING_DIRECTORY ${SOURCE_PATH}
+    )
 endif()
 
-file(INSTALL ${SOURCE_PATH}/license.txt DESTINATION ${CURRENT_PACKAGES_DIR}/share/ros-dashing-ament-package RENAME copyright)
-file(INSTALL ${SOURCE_PATH}/include/ros-dashing-ament-package_for_vcpkg.h DESTINATION ${CURRENT_PACKAGES_DIR}/include)
+# file(INSTALL ${SOURCE_PATH}/license.txt DESTINATION ${CURRENT_PACKAGES_DIR}/share/ros-dashing-ament-package RENAME copyright)
+# file(INSTALL ${SOURCE_PATH}/include/ros-dashing-ament-package_for_vcpkg.h DESTINATION ${CURRENT_PACKAGES_DIR}/include)
