@@ -21,6 +21,3 @@ vcpkg_configure_cmake(
 )
 
 vcpkg_install_cmake()
-
-# file(INSTALL ${SOURCE_PATH}/license.txt DESTINATION ${CURRENT_PACKAGES_DIR}/share/ros-dashing-ament-cmake-core RENAME copyright)
-# file(INSTALL ${SOURCE_PATH}/include/ros-dashing-ament-cmake-core_for_vcpkg.h DESTINATION ${CURRENT_PACKAGES_DIR}/include)

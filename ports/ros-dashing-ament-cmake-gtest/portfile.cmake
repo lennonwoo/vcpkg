@@ -10,14 +10,14 @@ vcpkg_from_github(
     SHA512 2ee184a79f05f5aea041628f0261c2febdb9138fe63e1605aeb4d2c519ca8d19b4f6d0af15977c026f882912aab1e0548b55d08f190d0543ed1cfc5ee89eb6af
 )
 
+set(ROS_BASE_PATH "C:/opt/ros/dashing")
+file(TO_NATIVE_PATH "${ROS_BASE_PATH}" ROS_BASE_PATH)
+
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}
     OPTIONS
-        -DCMAKE_INSTALL_PREFIX=c:\\opt\\rosdashing
-        -DCMAKE_PREFIX_PATH=c:\\opt\\rosdashing
+        -DCMAKE_INSTALL_PREFIX=${ROS_BASE_PATH}
+        -DAMENT_PREFIX_PATH=${ROS_BASE_PATH}
 )
 
 vcpkg_install_cmake()
-
-file(INSTALL ${SOURCE_PATH}/license.txt DESTINATION ${CURRENT_PACKAGES_DIR}/share/ros-dashing-ament-cmake-gtest RENAME copyright)
-file(INSTALL ${SOURCE_PATH}/include/ros-dashing-ament-cmake-gtest_for_vcpkg.h DESTINATION ${CURRENT_PACKAGES_DIR}/include)
