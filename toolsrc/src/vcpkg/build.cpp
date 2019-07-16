@@ -429,15 +429,17 @@ namespace vcpkg::Build
 #endif
         }
         command.append(cmd_launch_cmake);
+        System::print2(command);
         const auto timer = Chrono::ElapsedTimer::create_started();
-        const int return_code = System::cmd_execute_clean(
-            command,
-            {}
-#ifdef _WIN32
-            ,
-            powershell_exe_path.parent_path().u8string() + ";"
-#endif
-        );
+        const int return_code = System::cmd_execute(command);
+//         const int return_code = System::cmd_execute_clean(
+//             command,
+//             {}
+// #ifdef _WIN32
+//             ,
+//             powershell_exe_path.parent_path().u8string() + ";"
+// #endif
+//         );
         const auto buildtimeus = timer.microseconds();
         const auto spec_string = spec.to_string();
 
