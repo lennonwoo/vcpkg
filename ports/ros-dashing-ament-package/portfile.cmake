@@ -21,6 +21,7 @@ if (${PYTHONINTERP_FOUND})
     # make the Lib
     file(MAKE_DIRECTORY ${SETUP_INSTALL_PYTHONPATH})
     set(INSTALL_CMD
+        # if we want to use install --prefix, we must use following line to set PYTHONPATH
         ${CMAKE_COMMAND} -E env PYTHONPATH=${SETUP_INSTALL_PYTHONPATH}
         ${PYTHON_EXECUTABLE}
         setup.py
@@ -31,15 +32,8 @@ if (${PYTHONINTERP_FOUND})
         --single-version-externally-managed
         )
 
-    message(STATUS "CURRENT_PACKAGES_DIR: ${CURRENT_PACKAGES_DIR}")
-    message(STATUS "SETUP_INSTALL_PYTHONPATH: ${SETUP_INSTALL_PYTHONPATH}")
-    message(STATUS "SETUP_INSTALL_PREFIX: ${SETUP_INSTALL_PREFIX}")
-    message(STATUS "INSTALL_CMD: ${INSTALL_CMD}")
     execute_process(
         COMMAND ${INSTALL_CMD}
         WORKING_DIRECTORY ${SOURCE_PATH}
     )
 endif()
-
-# file(INSTALL ${SOURCE_PATH}/license.txt DESTINATION ${CURRENT_PACKAGES_DIR}/share/ros-dashing-ament-package RENAME copyright)
-# file(INSTALL ${SOURCE_PATH}/include/ros-dashing-ament-package_for_vcpkg.h DESTINATION ${CURRENT_PACKAGES_DIR}/include)
