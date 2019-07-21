@@ -64,9 +64,9 @@ function(vcpkg_from_github)
         message(FATAL_ERROR "OUT_SOURCE_PATH must be specified.")
     endif()
 
-    if((DEFINED _vdud_REF AND NOT DEFINED _vdud_SHA512) OR (NOT DEFINED _vdud_REF AND DEFINED _vdud_SHA512))
-        message(FATAL_ERROR "SHA512 must be specified if REF is specified.")
-    endif()
+    # if((DEFINED _vdud_REF AND NOT DEFINED _vdud_SHA512) OR (NOT DEFINED _vdud_REF AND DEFINED _vdud_SHA512))
+    #     message(FATAL_ERROR "SHA512 must be specified if REF is specified.")
+    # endif()
 
     if(NOT DEFINED _vdud_REPO)
         message(FATAL_ERROR "The GitHub repository must be specified.")
@@ -107,7 +107,7 @@ function(vcpkg_from_github)
 
         vcpkg_download_distfile(ARCHIVE
             URLS "https://github.com/${ORG_NAME}/${REPO_NAME}/archive/${_vdud_REF}.tar.gz"
-            SHA512 "${_vdud_SHA512}"
+            # SHA512 "${_vdud_SHA512}"
             FILENAME "${ORG_NAME}-${REPO_NAME}-${SANITIZED_REF}.tar.gz"
         )
 
