@@ -1,0 +1,4 @@
+Source: ros-dashing-rosidl-parser
+Version: 0.7.4
+Description: The parser for ROS interface files.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-pytest, ros-dashing-ament-lint-common, ros-dashing-rosidl-adapter, ros-dashing-ros-workspace

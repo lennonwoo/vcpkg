@@ -1,0 +1,4 @@
+Source: ros-dashing-builtin-interfaces
+Version: 0.7.4
+Description: A package containing message and service definitions for types defined in the OMG IDL Platform Specific Model.
+Build-Depends: ros-dashing-ament-lint-common, ros-dashing-rosidl-default-generators, ros-dashing-rosidl-default-runtime, ros-dashing-ament-cmake, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation

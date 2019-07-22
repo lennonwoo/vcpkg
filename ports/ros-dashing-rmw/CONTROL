@@ -1,0 +1,4 @@
+Source: ros-dashing-rmw
+Version: 0.7.2
+Description: Contains the ROS middleware API.
+Build-Depends: ros-dashing-ament-cmake-gmock, ros-dashing-rosidl-generator-c, ros-dashing-ament-lint-auto, ros-dashing-rcutils, ros-dashing-ament-cmake-ros, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

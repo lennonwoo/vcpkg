@@ -1,0 +1,4 @@
+Source: ros-dashing-osrf-testing-tools-cpp
+Version: 1.2.1
+Description: Testing tools for C++, and is used in various OSRF projects.
+Build-Depends: ros-dashing-ros-workspace

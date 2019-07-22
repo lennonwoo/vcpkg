@@ -1,0 +1,5 @@
+Source: ros-dashing-rqt-action
+Version: 1.0.1
+Description: rqt_action provides a feature to introspect all available ROS action types.
+ By utilizing rqt_msg, the output format is unified with it and rqt_srv. Note that the actions shown on this plugin is the ones that are stored on your machine, not on the ROS core your rqt instance connects to.
+Build-Depends: ros-dashing-python-qt-binding, ros-dashing-rqt-gui-py, ros-dashing-rqt-py-common, ros-dashing-rqt-msg, ros-dashing-rqt-gui, ros-dashing-rclpy, ros-dashing-ros-workspace

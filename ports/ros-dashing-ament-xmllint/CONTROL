@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-xmllint
+Version: 0.7.3
+Description: The ability to check XML files like the package manifest using xmllint and generate xUnit test result files.
+Build-Depends: ros-dashing-ament-pep257, ros-dashing-ament-flake8, ros-dashing-ament-copyright, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-depthimage-to-laserscan
+Version: 2.2.1
+Description: depthimage_to_laserscan
+Build-Depends: ros-dashing-rclcpp, ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake-ros, ros-dashing-image-geometry, ros-dashing-sensor-msgs, ros-dashing-ros-workspace

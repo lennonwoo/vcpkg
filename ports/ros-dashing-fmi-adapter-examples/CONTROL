@@ -1,0 +1,4 @@
+Source: ros-dashing-fmi-adapter-examples
+Version: 0.1.5
+Description: Provides small examples for use of the fmi_adapter package
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-fmi-adapter, ros-dashing-launch, ros-dashing-launch-ros, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-rosbag2-storage
+Version: 0.1.3
+Description: ROS2 independent storage format to store serialized ROS2 messages
+Build-Depends: ros-dashing-rcutils, ros-dashing-ament-lint-common, ros-dashing-pluginlib, ros-dashing-ament-cmake-gmock, ros-dashing-ament-cmake-gtest, ros-dashing-ament-lint-auto, ros-dashing-rosbag2-test-common, ros-dashing-yaml-cpp-vendor, ros-dashing-ament-cmake, ros-dashing-ros-workspace

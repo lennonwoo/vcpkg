@@ -1,0 +1,4 @@
+Source: ros-dashing-rosidl-default-runtime
+Version: 0.7.0
+Description: A configuration package defining the runtime for the ROS interfaces.
+Build-Depends: ros-dashing-rosidl-generator-cpp, ros-dashing-ament-cmake, ros-dashing-rosidl-generator-py, ros-dashing-rosidl-typesupport-c, ros-dashing-ament-lint-common, ros-dashing-rosidl-typesupport-introspection-cpp, ros-dashing-rosidl-typesupport-introspection-c, ros-dashing-ament-lint-auto, ros-dashing-rosidl-typesupport-cpp, ros-dashing-ros-workspace

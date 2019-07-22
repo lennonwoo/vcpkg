@@ -1,0 +1,5 @@
+Source: ros-dashing-kdl-parser
+Version: 2.2.0
+Description: The Kinematics and Dynamics Library (KDL) defines a tree structure to represent the kinematic and dynamic parameters of a robot mechanism.
+ kdl_parser provides tools to construct a KDL tree from an XML robot representation in URDF.
+Build-Depends: ros-dashing-tinyxml-vendor, ros-dashing-ament-lint-auto, ros-dashing-orocos-kdl, ros-dashing-urdf, ros-dashing-ament-lint-common, ros-dashing-urdfdom-headers, ros-dashing-ament-cmake-ros, ros-dashing-ros-workspace

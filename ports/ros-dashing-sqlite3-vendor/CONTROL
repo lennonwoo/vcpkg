@@ -1,0 +1,4 @@
+Source: ros-dashing-sqlite3-vendor
+Version: 0.1.3
+Description: SQLite 3 vendor package
+Build-Depends: ros-dashing-ros-workspace

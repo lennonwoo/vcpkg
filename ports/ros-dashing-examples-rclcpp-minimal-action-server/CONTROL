@@ -1,0 +1,4 @@
+Source: ros-dashing-examples-rclcpp-minimal-action-server
+Version: 0.7.3
+Description: Minimal action server examples
+Build-Depends: ros-dashing-rclcpp, ros-dashing-ament-cmake, ros-dashing-example-interfaces, ros-dashing-rclcpp-action, ros-dashing-ros-workspace

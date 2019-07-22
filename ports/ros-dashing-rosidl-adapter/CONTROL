@@ -1,0 +1,4 @@
+Source: ros-dashing-rosidl-adapter
+Version: 0.7.4
+Description: API and scripts to parse .msg/.srv/.action files and convert them to .idl.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-pytest, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

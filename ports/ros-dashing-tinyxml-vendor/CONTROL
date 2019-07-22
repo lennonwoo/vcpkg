@@ -1,0 +1,4 @@
+Source: ros-dashing-tinyxml-vendor
+Version: 0.7.0
+Description: CMake shim over the tinxml library.
+Build-Depends: ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-rqt-gui
+Version: 1.0.4
+Description: rqt_gui provides the main to start an instance of the ROS integrated graphical user interface provided by qt_gui.
+Build-Depends: ros-dashing-rclpy, ros-dashing-python-qt-binding, ros-dashing-ament-lint-auto, ros-dashing-qt-gui, ros-dashing-ament-index-python, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

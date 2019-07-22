@@ -1,0 +1,4 @@
+Source: ros-dashing-vision-opencv
+Version: 2.1.2
+Description: Packages for interfacing ROS2 with OpenCV, a library of programming functions for real time computer vision.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-cv-bridge, ros-dashing-image-geometry, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-action-tutorials
+Version: 0.7.8
+Description: Action tutorial code examples
+Build-Depends: ros-dashing-ament-lint-common, ros-dashing-rosidl-default-runtime, ros-dashing-action-msgs, ros-dashing-rclpy, ros-dashing-rosidl-default-generators, ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation

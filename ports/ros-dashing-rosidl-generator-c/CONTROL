@@ -1,0 +1,4 @@
+Source: ros-dashing-rosidl-generator-c
+Version: 0.7.4
+Description: Generate the ROS interfaces in C.
+Build-Depends: ros-dashing-rosidl-parser, ros-dashing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-ament-cmake-ros, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-rosidl-cmake, ros-dashing-rosidl-typesupport-interface, ros-dashing-ros-workspace

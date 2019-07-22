@@ -1,0 +1,4 @@
+Source: ros-dashing-object-analytics-msgs
+Version: 0.5.4
+Description: object analytics message definition
+Build-Depends: ros-dashing-rosidl-default-runtime, ros-dashing-rosidl-default-generators, ros-dashing-ament-cmake, ros-dashing-sensor-msgs, ros-dashing-geometry-msgs, ros-dashing-tf2-ros, ros-dashing-object-msgs, ros-dashing-builtin-interfaces, ros-dashing-std-msgs, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation

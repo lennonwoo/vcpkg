@@ -1,0 +1,4 @@
+Source: ros-dashing-rqt-top
+Version: 1.0.0
+Description: RQT plugin for monitoring ROS processes.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-rclpy, ros-dashing-rqt-gui, ros-dashing-python-qt-binding, ros-dashing-rqt-gui-py, ros-dashing-ros-workspace

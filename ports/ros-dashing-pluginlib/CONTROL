@@ -1,0 +1,5 @@
+Source: ros-dashing-pluginlib
+Version: 2.3.1
+Description: The pluginlib package provides tools for writing and dynamically loading plugins using the ROS build infrastructure.
+ To work, these tools require plugin providers to register their plugins in the package.xml of their package.
+Build-Depends: ros-dashing-rcutils, ros-dashing-class-loader, ros-dashing-ament-cmake, ros-dashing-ament-index-cpp, ros-dashing-tinyxml2-vendor, ros-dashing-ament-cmake-gtest, ros-dashing-ros-workspace

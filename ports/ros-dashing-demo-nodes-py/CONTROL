@@ -1,0 +1,4 @@
+Source: ros-dashing-demo-nodes-py
+Version: 0.7.8
+Description: Python nodes which were previously in the ros2/examples repository but are now just used for demo purposes.
+Build-Depends: ros-dashing-ament-pep257, ros-dashing-example-interfaces, ros-dashing-rclpy, ros-dashing-ament-flake8, ros-dashing-ament-copyright, ros-dashing-std-msgs, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-cmake-ros
+Version: 0.7.0
+Description: The ROS specific CMake bits in the ament buildsystem.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

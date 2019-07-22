@@ -1,0 +1,4 @@
+Source: ros-dashing-rviz-ogre-vendor
+Version: 6.1.2
+Description: Wrapper around ogre3d, it provides a fixed CMake module and an ExternalProject build of ogre.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ros-workspace

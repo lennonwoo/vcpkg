@@ -1,0 +1,4 @@
+Source: ros-dashing-demo-nodes-cpp-native
+Version: 0.7.8
+Description: C++ nodes which access the native handles of the rmw implemenation.
+Build-Depends: ros-dashing-launch-testing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-ament-cmake-pytest, ros-dashing-rmw-fastrtps-cpp, ros-dashing-launch, ros-dashing-launch-testing-ros, ros-dashing-launch-testing, ros-dashing-ament-cmake, ros-dashing-rclcpp, ros-dashing-std-msgs, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace

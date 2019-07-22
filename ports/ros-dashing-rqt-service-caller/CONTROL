@@ -1,0 +1,4 @@
+Source: ros-dashing-rqt-service-caller
+Version: 1.0.3
+Description: rqt_service_caller provides a GUI plugin for calling arbitrary services.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-rqt-py-common, ros-dashing-rqt-gui, ros-dashing-rqt-gui-py, ros-dashing-ros-workspace

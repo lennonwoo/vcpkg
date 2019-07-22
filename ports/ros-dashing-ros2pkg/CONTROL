@@ -1,0 +1,4 @@
+Source: ros-dashing-ros2pkg
+Version: 0.7.4
+Description: The pkg command for ROS 2 command line tools.
+Build-Depends: ros-dashing-ament-copyright, ros-dashing-ros2cli, ros-dashing-ament-xmllint, ros-dashing-ament-pep257, ros-dashing-ament-index-python, ros-dashing-ament-flake8, ros-dashing-ros-workspace

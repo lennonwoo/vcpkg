@@ -1,0 +1,4 @@
+Source: ros-dashing-rosbag2-storage-default-plugins
+Version: 0.1.3
+Description: ROSBag2 SQLite3 storage plugin
+Build-Depends: ros-dashing-rcutils, ros-dashing-ament-lint-common, ros-dashing-rosbag2-storage, ros-dashing-pluginlib, ros-dashing-ament-cmake-gmock, ros-dashing-sqlite3-vendor, ros-dashing-ament-lint-auto, ros-dashing-rosbag2-test-common, ros-dashing-ament-cmake, ros-dashing-ros-workspace

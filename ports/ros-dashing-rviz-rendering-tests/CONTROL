@@ -1,0 +1,4 @@
+Source: ros-dashing-rviz-rendering-tests
+Version: 6.1.2
+Description: Example plugin for RViz - documents and tests RViz plugin development
+Build-Depends: ros-dashing-ament-cmake-cppcheck, ros-dashing-ament-cmake-uncrustify, ros-dashing-ament-cmake-gmock, ros-dashing-ament-cmake-cpplint, ros-dashing-ament-cmake, ros-dashing-ament-index-cpp, ros-dashing-resource-retriever, ros-dashing-ament-cmake-lint-cmake, ros-dashing-rviz-rendering, ros-dashing-ament-cmake-gtest, ros-dashing-ros-workspace

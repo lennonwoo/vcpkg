@@ -1,0 +1,5 @@
+Source: ros-dashing-tinyxml2-vendor
+Version: 0.6.1
+Description: Wrapper around tinyxml2, providing nothing but a dependency on tinyxml2, on some systems.
+ On others, it provides a fixed CMake module or even an ExternalProject build of tinyxml2.
+Build-Depends: ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-qt-gui-core
+Version: 1.0.6
+Description: Integration of the ROS package system and ROS-specific plugins for a Qt-based GUI.
+Build-Depends: ros-dashing-qt-dotgraph, ros-dashing-ament-cmake, ros-dashing-qt-gui, ros-dashing-qt-gui-cpp, ros-dashing-qt-gui-app, ros-dashing-qt-gui-py-common, ros-dashing-ros-workspace

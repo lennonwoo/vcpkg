@@ -1,0 +1,4 @@
+Source: ros-dashing-rmw-implementation
+Version: 0.7.1
+Description: The decision which ROS middleware implementation should be used for C++.
+Build-Depends: ros-dashing-ament-lint-common, ros-dashing-rmw, ros-dashing-rcutils, ros-dashing-poco-vendor, ros-dashing-rmw-fastrtps-cpp, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake, ros-dashing-rmw-implementation-cmake, ros-dashing-ros-workspace

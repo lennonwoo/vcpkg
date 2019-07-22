@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-lint-common
+Version: 0.7.3
+Description: The list of commonly used linters in the ament buildsytem in CMake.
+Build-Depends: ros-dashing-ament-cmake-cppcheck, ros-dashing-ament-cmake-uncrustify, ros-dashing-ament-cmake-pep257, ros-dashing-ament-cmake-cpplint, ros-dashing-ament-cmake-core, ros-dashing-ament-cmake-xmllint, ros-dashing-ament-cmake-lint-cmake, ros-dashing-ament-cmake-flake8, ros-dashing-ament-cmake-copyright, ros-dashing-ament-cmake-export-dependencies, ros-dashing-ros-workspace

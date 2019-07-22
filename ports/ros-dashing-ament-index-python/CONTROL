@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-index-python
+Version: 0.7.0
+Description: Python API to access the ament resource index.
+Build-Depends: ros-dashing-ament-pep257, ros-dashing-ament-flake8, ros-dashing-ros-workspace

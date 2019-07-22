@@ -1,0 +1,4 @@
+Source: ros-dashing-ros2test
+Version: 0.1.0
+Description: The test command for ROS 2 launch tests.
+Build-Depends: ros-dashing-launch-testing, ros-dashing-ament-flake8, ros-dashing-ament-pep257, ros-dashing-ros2cli, ros-dashing-launch-testing-ros, ros-dashing-launch-ros, ros-dashing-launch, ros-dashing-ament-copyright, ros-dashing-ros-workspace

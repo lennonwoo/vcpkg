@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-cmake-flake8
+Version: 0.7.3
+Description: The CMake API for ament_flake8 to check code syntax and style conventions with flake8.
+Build-Depends: ros-dashing-ament-cmake-test, ros-dashing-ament-cmake-core, ros-dashing-ament-cmake-lint-cmake, ros-dashing-ament-cmake-copyright, ros-dashing-ament-flake8, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-lifecycle
+Version: 0.7.8
+Description: Package containing demos for lifecycle implementation
+Build-Depends: ros-dashing-ament-lint-common, ros-dashing-rclcpp-lifecycle, ros-dashing-lifecycle-msgs, ros-dashing-std-msgs, ros-dashing-ament-cmake, ros-dashing-ros-testing, ros-dashing-ros2run, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace

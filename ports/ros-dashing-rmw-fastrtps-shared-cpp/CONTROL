@@ -1,0 +1,4 @@
+Source: ros-dashing-rmw-fastrtps-shared-cpp
+Version: 0.7.4
+Description: Code shared on static and dynamic type support of rmw_fastrtps_cpp.
+Build-Depends: ros-dashing-fastcdr, ros-dashing-rcutils, ros-dashing-fastrtps-cmake-module, ros-dashing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-rmw, ros-dashing-ament-cmake-ros, ros-dashing-ament-lint-auto, ros-dashing-rcpputils, ros-dashing-fastrtps, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-orocos-kdl
+Version: 3.2.0
+Description: This package contains a recent version of the Kinematics and Dynamics Library (KDL), distributed by the Orocos Project.
+Build-Depends: ros-dashing-ros-workspace

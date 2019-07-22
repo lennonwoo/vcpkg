@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-copyright
+Version: 0.7.3
+Description: The ability to check source files for copyright and license information.
+Build-Depends: ros-dashing-ament-pep257, ros-dashing-ament-flake8, ros-dashing-ros-workspace

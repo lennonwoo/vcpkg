@@ -1,0 +1,4 @@
+Source: ros-dashing-gazebo-dev
+Version: 3.3.1
+Description: Provides a cmake config for the default version of Gazebo for the ROS distribution.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ros-workspace

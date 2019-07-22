@@ -1,0 +1,4 @@
+Source: ros-dashing-rosbag2
+Version: 0.1.3
+Description: ROSBag2 client library
+Build-Depends: ros-dashing-test-msgs, ros-dashing-rosidl-typesupport-cpp, ros-dashing-rosidl-typesupport-introspection-cpp, ros-dashing-rcutils, ros-dashing-rosidl-generator-cpp, ros-dashing-ament-lint-common, ros-dashing-ament-index-cpp, ros-dashing-shared-queues-vendor, ros-dashing-rosbag2-storage, ros-dashing-pluginlib, ros-dashing-ament-cmake-gmock, ros-dashing-ament-lint-auto, ros-dashing-rosbag2-test-common, ros-dashing-poco-vendor, ros-dashing-ament-cmake, ros-dashing-ros-workspace

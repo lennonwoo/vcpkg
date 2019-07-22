@@ -1,0 +1,5 @@
+Source: ros-dashing-console-bridge-vendor
+Version: 1.2.0
+Description: Wrapper around console_bridge, providing nothing but a dependency on console_bridge, on some systems.
+ On others, it provides an ExternalProject build of console_bridge.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ros-workspace

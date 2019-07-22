@@ -1,0 +1,4 @@
+Source: ros-dashing-rclcpp-lifecycle
+Version: 0.7.6
+Description: Package containing a prototype for lifecycle implementation
+Build-Depends: ros-dashing-rclcpp, ros-dashing-lifecycle-msgs, ros-dashing-rcl-lifecycle, ros-dashing-ament-lint-common, ros-dashing-rmw-implementation, ros-dashing-ament-cmake-ros, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-rosidl-typesupport-cpp, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-rosidl-typesupport-connext-cpp
+Version: 0.7.2
+Description: Generate the C++ interfaces for RTI Connext.
+Build-Depends: ros-dashing-rosidl-generator-cpp, ros-dashing-rosidl-parser, ros-dashing-rcutils, ros-dashing-rosidl-typesupport-interface, ros-dashing-rosidl-generator-dds-idl, ros-dashing-ament-lint-auto, ros-dashing-rmw, ros-dashing-ament-cmake, ros-dashing-rosidl-generator-c, ros-dashing-ament-lint-common, ros-dashing-rosidl-cmake, ros-dashing-ros-workspace

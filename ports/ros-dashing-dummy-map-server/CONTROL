@@ -1,0 +1,4 @@
+Source: ros-dashing-dummy-map-server
+Version: 0.7.8
+Description: dummy map server node
+Build-Depends: ros-dashing-ament-lint-auto, ros-dashing-ament-lint-common, ros-dashing-rclcpp, ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake, ros-dashing-nav-msgs, ros-dashing-ros-workspace

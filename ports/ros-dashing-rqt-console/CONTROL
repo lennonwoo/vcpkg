@@ -1,0 +1,4 @@
+Source: ros-dashing-rqt-console
+Version: 1.0.1
+Description: rqt_console provides a GUI plugin for displaying and filtering ROS messages.
+Build-Depends: ros-dashing-python-qt-binding, ros-dashing-rqt-gui-py, ros-dashing-ament-cmake, ros-dashing-rqt-py-common, ros-dashing-rcl-interfaces, ros-dashing-ament-index-python, ros-dashing-rqt-gui, ros-dashing-rclpy, ros-dashing-ros-workspace

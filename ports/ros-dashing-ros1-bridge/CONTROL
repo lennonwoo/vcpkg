@@ -1,0 +1,4 @@
+Source: ros-dashing-ros1-bridge
+Version: 0.7.2
+Description: A simple bridge between ROS 1 and ROS 2
+Build-Depends: ros-dashing-actionlib-msgs, ros-dashing-tf2-msgs, ros-dashing-sensor-msgs, ros-dashing-rosidl-cmake, ros-dashing-trajectory-msgs, ros-dashing-builtin-interfaces, ros-dashing-std-msgs, ros-dashing-std-srvs, ros-dashing-rmw-implementation-cmake, ros-dashing-ament-lint-auto, ros-dashing-launch-testing-ament-cmake, ros-dashing-rosidl-parser, ros-dashing-ros2run, ros-dashing-stereo-msgs, ros-dashing-ament-index-python, ros-dashing-gazebo-msgs, ros-dashing-rcutils, ros-dashing-action-msgs, ros-dashing-launch-testing-ros, ros-dashing-ament-lint-common, ros-dashing-demo-nodes-cpp, ros-dashing-launch, ros-dashing-visualization-msgs, ros-dashing-rclcpp, ros-dashing-nav-msgs, ros-dashing-launch-testing, ros-dashing-shape-msgs, ros-dashing-example-interfaces, ros-dashing-diagnostic-msgs, ros-dashing-geometry-msgs, ros-dashing-ament-cmake, ros-dashing-ros-workspace

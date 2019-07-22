@@ -1,0 +1,4 @@
+Source: ros-dashing-rqt-gui-cpp
+Version: 1.0.4
+Description: rqt_gui_cpp enables GUI plugins to use the C++ client library for ROS.
+Build-Depends: ros-dashing-qt-gui, ros-dashing-ament-cmake, ros-dashing-rclcpp, ros-dashing-qt-gui-cpp, ros-dashing-ros-workspace

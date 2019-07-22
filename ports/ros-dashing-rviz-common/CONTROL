@@ -1,0 +1,4 @@
+Source: ros-dashing-rviz-common
+Version: 6.1.2
+Description: Common rviz API, used by rviz plugins and applications.
+Build-Depends: ros-dashing-rclcpp, ros-dashing-ament-cmake-gmock, ros-dashing-yaml-cpp-vendor, ros-dashing-tf2, ros-dashing-rviz-ogre-vendor, ros-dashing-tf2-geometry-msgs, ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake-cppcheck, ros-dashing-ament-cmake, ros-dashing-sensor-msgs, ros-dashing-ament-cmake-lint-cmake, ros-dashing-ament-cmake-uncrustify, ros-dashing-ament-cmake-cpplint, ros-dashing-rviz-assimp-vendor, ros-dashing-pluginlib, ros-dashing-rviz-rendering, ros-dashing-std-msgs, ros-dashing-geometry-msgs, ros-dashing-resource-retriever, ros-dashing-tinyxml-vendor, ros-dashing-tf2-ros, ros-dashing-urdf, ros-dashing-ros-workspace

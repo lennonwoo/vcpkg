@@ -1,0 +1,4 @@
+Source: ros-dashing-rttest
+Version: 0.7.1
+Description: Instrumentation library for real-time performance testing
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

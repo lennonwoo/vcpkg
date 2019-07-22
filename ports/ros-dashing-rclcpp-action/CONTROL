@@ -1,0 +1,4 @@
+Source: ros-dashing-rclcpp-action
+Version: 0.7.6
+Description: Adds action APIs for C++.
+Build-Depends: ros-dashing-rclcpp, ros-dashing-rosidl-generator-c, ros-dashing-rosidl-generator-cpp, ros-dashing-ament-cmake, ros-dashing-action-msgs, ros-dashing-ament-lint-common, ros-dashing-test-msgs, ros-dashing-ament-cmake-ros, ros-dashing-rcl-action, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-ros-workspace

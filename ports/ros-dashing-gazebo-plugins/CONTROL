@@ -1,0 +1,4 @@
+Source: ros-dashing-gazebo-plugins
+Version: 3.3.1
+Description: Robot-independent Gazebo plugins for sensors, motors and dynamic reconfigurable components.
+Build-Depends: ros-dashing-gazebo-ros, ros-dashing-geometry-msgs, ros-dashing-image-transport, ros-dashing-rclcpp, ros-dashing-std-msgs, ros-dashing-camera-info-manager, ros-dashing-sensor-msgs, ros-dashing-tf2-ros, ros-dashing-ament-cmake, ros-dashing-cv-bridge, ros-dashing-gazebo-dev, ros-dashing-tf2-geometry-msgs, ros-dashing-ament-lint-common, ros-dashing-nav-msgs, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-ros-workspace

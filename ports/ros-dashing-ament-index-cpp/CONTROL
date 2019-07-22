@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-index-cpp
+Version: 0.7.0
+Description: C++ API to access the ament resource index.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

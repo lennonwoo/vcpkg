@@ -1,0 +1,4 @@
+Source: ros-dashing-image-tools
+Version: 0.7.8
+Description: Tools to capture and play back images to and from DDS subscriptions and publications.
+Build-Depends: ros-dashing-launch-testing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-sensor-msgs, ros-dashing-ament-cmake-pytest, ros-dashing-launch, ros-dashing-launch-testing-ros, ros-dashing-launch-testing, ros-dashing-rmw-implementation-cmake, ros-dashing-ament-cmake, ros-dashing-rclcpp, ros-dashing-std-msgs, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace

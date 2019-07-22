@@ -1,0 +1,4 @@
+Source: ros-dashing-urdfdom-headers
+Version: 1.0.4
+Description: C++ headers for URDF.
+Build-Depends: ros-dashing-ros-workspace

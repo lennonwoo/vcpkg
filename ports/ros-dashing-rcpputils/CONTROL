@@ -1,0 +1,5 @@
+Source: ros-dashing-rcpputils
+Version: 0.1.0
+Description: Package containing utility code for C++.
+ Currently only Clang thread safety annotation macros
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

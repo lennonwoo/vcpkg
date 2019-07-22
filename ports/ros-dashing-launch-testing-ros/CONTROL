@@ -1,0 +1,4 @@
+Source: ros-dashing-launch-testing-ros
+Version: 0.8.4
+Description: A package providing utilities for writing ROS2 enabled launch tests.
+Build-Depends: ros-dashing-std-msgs, ros-dashing-ament-copyright, ros-dashing-ament-pep257, ros-dashing-ament-flake8, ros-dashing-demo-nodes-py, ros-dashing-rclpy, ros-dashing-launch-testing, ros-dashing-launch-ros, ros-dashing-ros-workspace

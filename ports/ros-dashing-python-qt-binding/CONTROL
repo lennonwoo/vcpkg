@@ -1,0 +1,5 @@
+Source: ros-dashing-python-qt-binding
+Version: 1.0.1
+Description: This stack provides Python bindings for Qt.
+ There are two providers: pyside and pyqt. PySide2 is available under the GPL, LGPL and a commercial license. PyQt is released under the GPL. Both the bindings and tools to build bindings are included from each available provider. For PySide, it is called &quot;Shiboken&quot;. For PyQt, this is called &quot;SIP&quot;. Also provided is adapter code to make the user's Python code independent of which binding provider was actually used which makes it very easy to switch between these.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-pytest, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

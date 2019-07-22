@@ -1,0 +1,5 @@
+Source: ros-dashing-qt-gui
+Version: 1.0.6
+Description: qt_gui provides the infrastructure for an integrated graphical user interface based on Qt.
+ It is extensible with Python- and C++-based plugins (implemented in separate packages) which can contribute arbitrary widgets. It requires either PyQt or PySide bindings.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-index-python, ros-dashing-python-qt-binding, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

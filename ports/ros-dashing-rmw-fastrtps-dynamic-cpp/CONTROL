@@ -1,0 +1,4 @@
+Source: ros-dashing-rmw-fastrtps-dynamic-cpp
+Version: 0.7.4
+Description: Implement the ROS middleware interface using eProsima FastRTPS static code generation in C++.
+Build-Depends: ros-dashing-fastcdr, ros-dashing-rmw-fastrtps-shared-cpp, ros-dashing-rcutils, ros-dashing-fastrtps-cmake-module, ros-dashing-ament-cmake, ros-dashing-rosidl-typesupport-fastrtps-c, ros-dashing-rosidl-generator-c, ros-dashing-ament-lint-common, ros-dashing-rmw, ros-dashing-ament-cmake-ros, ros-dashing-rosidl-typesupport-introspection-c, ros-dashing-ament-lint-auto, ros-dashing-rosidl-typesupport-introspection-cpp, ros-dashing-rosidl-typesupport-fastrtps-cpp, ros-dashing-fastrtps, ros-dashing-ros-workspace

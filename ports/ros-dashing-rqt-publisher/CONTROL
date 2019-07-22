@@ -1,0 +1,4 @@
+Source: ros-dashing-rqt-publisher
+Version: 1.0.5
+Description: rqt_publisher provides a GUI plugin for publishing arbitrary messages with fixed or computed field values.
+Build-Depends: ros-dashing-python-qt-binding, ros-dashing-rqt-gui-py, ros-dashing-ament-cmake, ros-dashing-rqt-py-common, ros-dashing-rqt-gui, ros-dashing-qt-gui-py-common, ros-dashing-ros-workspace

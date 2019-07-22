@@ -1,0 +1,4 @@
+Source: ros-dashing-cv-bridge
+Version: 2.1.2
+Description: This contains CvBridge, which converts between ROS2 Image messages and OpenCV images.
+Build-Depends: ros-dashing-ament-index-python, ros-dashing-ament-lint-common, ros-dashing-sensor-msgs, ros-dashing-ament-cmake-ros, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake-pytest, ros-dashing-python-cmake-module, ros-dashing-ros-workspace

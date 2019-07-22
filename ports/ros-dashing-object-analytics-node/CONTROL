@@ -1,0 +1,4 @@
+Source: ros-dashing-object-analytics-node
+Version: 0.5.4
+Description: The object_analytics_node package
+Build-Depends: ros-dashing-rclcpp, ros-dashing-class-loader, ros-dashing-pcl-conversions, ros-dashing-ament-cmake, ros-dashing-ament-index-python, ros-dashing-cv-bridge, ros-dashing-object-analytics-msgs, ros-dashing-rclcpp-components, ros-dashing-ament-lint-common, ros-dashing-message-filters, ros-dashing-geometry-msgs, ros-dashing-sensor-msgs, ros-dashing-object-msgs, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-std-msgs, ros-dashing-ros-workspace

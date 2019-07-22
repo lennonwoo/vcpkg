@@ -1,0 +1,4 @@
+Source: ros-dashing-logging-demo
+Version: 0.7.8
+Description: Examples for using and configuring loggers.
+Build-Depends: ros-dashing-launch-testing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-ament-cmake-pytest, ros-dashing-rosidl-default-runtime, ros-dashing-rcutils, ros-dashing-launch, ros-dashing-launch-testing-ros, ros-dashing-rosidl-cmake, ros-dashing-launch-testing, ros-dashing-rclcpp-components, ros-dashing-ament-cmake, ros-dashing-rclcpp, ros-dashing-rmw-implementation-cmake, ros-dashing-rosidl-default-generators, ros-dashing-std-msgs, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation

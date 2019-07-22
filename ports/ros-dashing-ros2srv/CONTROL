@@ -1,0 +1,4 @@
+Source: ros-dashing-ros2srv
+Version: 0.7.4
+Description: The srv command for ROS 2 command line tools.
+Build-Depends: ros-dashing-ament-copyright, ros-dashing-ros2cli, ros-dashing-ament-xmllint, ros-dashing-ament-pep257, ros-dashing-std-msgs, ros-dashing-ament-index-python, ros-dashing-ament-flake8, ros-dashing-std-srvs, ros-dashing-ros-workspace

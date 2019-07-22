@@ -1,0 +1,4 @@
+Source: ros-dashing-sros2-cmake
+Version: 0.7.1
+Description: Cmake macros to configure security for nodes
+Build-Depends: ros-dashing-ros2cli, ros-dashing-sros2, ros-dashing-ament-cmake-test, ros-dashing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace

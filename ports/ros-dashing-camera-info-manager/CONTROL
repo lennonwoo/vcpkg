@@ -1,0 +1,5 @@
+Source: ros-dashing-camera-info-manager
+Version: 2.1.1
+Description: This package provides a C++ interface for camera calibration information.
+ It provides CameraInfo, and handles SetCameraInfo service requests, saving and restoring the camera calibration data.
+Build-Depends: ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake-ros, ros-dashing-sensor-msgs, ros-dashing-ament-lint-common, ros-dashing-camera-calibration-parsers, ros-dashing-ament-lint-auto, ros-dashing-rclcpp, ros-dashing-image-transport, ros-dashing-ros-workspace

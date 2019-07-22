@@ -1,0 +1,5 @@
+Source: ros-dashing-tf2
+Version: 0.11.3
+Description: tf2 is the second generation of the transform library, which lets the user keep track of multiple coordinate frames over time.
+ tf2 maintains the relationship between coordinate frames in a tree structure buffered in time, and lets the user transform points, vectors, etc between any two coordinate frames at any desired point in time.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-cmake-gtest, ros-dashing-console-bridge-vendor, ros-dashing-geometry-msgs, ros-dashing-ros-workspace

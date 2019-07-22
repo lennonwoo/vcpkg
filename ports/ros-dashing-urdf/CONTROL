@@ -1,0 +1,5 @@
+Source: ros-dashing-urdf
+Version: 2.2.0
+Description: This package contains a C++ parser for the Unified Robot Description Format (URDF), which is an XML format for representing a robot model.
+ The code API of the parser has been through our review process and will remain backwards compatible in future releases.
+Build-Depends: ros-dashing-urdfdom-headers, ros-dashing-urdfdom, ros-dashing-ament-lint-common, ros-dashing-tinyxml-vendor, ros-dashing-ament-cmake-ros, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace

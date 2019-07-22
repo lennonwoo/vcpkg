@@ -1,0 +1,4 @@
+Source: ros-dashing-rqt-shell
+Version: 1.0.0
+Description: rqt_shell is a Python GUI plugin providing an interactive shell.
+Build-Depends: ros-dashing-python-qt-binding, ros-dashing-rqt-gui-py, ros-dashing-ament-cmake, ros-dashing-qt-gui, ros-dashing-rqt-gui, ros-dashing-qt-gui-py-common, ros-dashing-ros-workspace

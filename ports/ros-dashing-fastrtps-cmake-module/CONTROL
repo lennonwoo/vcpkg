@@ -1,0 +1,4 @@
+Source: ros-dashing-fastrtps-cmake-module
+Version: 0.7.1
+Description: Provide CMake module to find eProsima FastRTPS.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

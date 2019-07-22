@@ -1,0 +1,4 @@
+Source: ros-dashing-rosidl-default-generators
+Version: 0.7.0
+Description: A configuration package defining the default ROS interface generators.
+Build-Depends: ros-dashing-rosidl-generator-c, ros-dashing-rosidl-generator-cpp, ros-dashing-ament-cmake, ros-dashing-ament-cmake-core, ros-dashing-rosidl-generator-py, ros-dashing-rosidl-typesupport-c, ros-dashing-ament-lint-common, ros-dashing-rosidl-typesupport-introspection-cpp, ros-dashing-rosidl-typesupport-introspection-c, ros-dashing-ament-lint-auto, ros-dashing-rosidl-cmake, ros-dashing-rosidl-typesupport-cpp, ros-dashing-ros-workspace

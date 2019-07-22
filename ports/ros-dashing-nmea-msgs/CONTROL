@@ -1,0 +1,4 @@
+Source: ros-dashing-nmea-msgs
+Version: 2.0.0
+Description: The nmea_msgs package contains messages related to data in the NMEA format.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-builtin-interfaces, ros-dashing-std-msgs, ros-dashing-rosidl-default-runtime, ros-dashing-rosidl-default-generators, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation

@@ -1,0 +1,4 @@
+Source: ros-dashing-composition
+Version: 0.7.8
+Description: Examples for composing multiple nodes in a single process.
+Build-Depends: ros-dashing-launch-testing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-example-interfaces, ros-dashing-launch-ros, ros-dashing-ament-cmake-pytest, ros-dashing-rcutils, ros-dashing-launch, ros-dashing-launch-testing-ros, ros-dashing-launch-testing, ros-dashing-rclcpp-components, ros-dashing-ament-cmake, ros-dashing-rclcpp, ros-dashing-rmw-implementation-cmake, ros-dashing-std-msgs, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace

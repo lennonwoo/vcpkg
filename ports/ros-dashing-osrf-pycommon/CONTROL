@@ -1,0 +1,4 @@
+Source: ros-dashing-osrf-pycommon
+Version: 0.1.7
+Description: Commonly needed Python modules, used by Python software developed at OSRF.
+Build-Depends: ros-dashing-ros-workspace

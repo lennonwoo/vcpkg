@@ -1,0 +1,4 @@
+Source: ros-dashing-opensplice-cmake-module
+Version: 0.7.1
+Description: Provide CMake module to find PrismTech OpenSplice.
+Build-Depends: ros-dashing-ament-lint-common, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-urdfdom
+Version: 2.2.0
+Description: A library to access URDFs using the DOM model.
+Build-Depends: ros-dashing-tinyxml-vendor, ros-dashing-urdfdom-headers, ros-dashing-console-bridge-vendor, ros-dashing-ros-workspace

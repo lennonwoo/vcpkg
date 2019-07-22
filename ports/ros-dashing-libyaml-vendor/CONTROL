@@ -1,0 +1,4 @@
+Source: ros-dashing-libyaml-vendor
+Version: 1.0.0
+Description: Wrapper around libyaml, provides the last version (1.8.0 rc) that ships with a CMake module
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ros-workspace

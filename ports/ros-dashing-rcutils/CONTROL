@@ -1,0 +1,4 @@
+Source: ros-dashing-rcutils
+Version: 0.7.3
+Description: Package containing various utility types and functions for C
+Build-Depends: ros-dashing-launch-testing, ros-dashing-osrf-testing-tools-cpp, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gmock, ros-dashing-ament-lint-common, ros-dashing-ament-cmake-ros, ros-dashing-launch, ros-dashing-ament-cmake-pytest, ros-dashing-launch-testing-ament-cmake, ros-dashing-ament-cmake-gtest, ros-dashing-ros-workspace

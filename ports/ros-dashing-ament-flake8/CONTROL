@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-flake8
+Version: 0.7.3
+Description: The ability to check code for style and syntax conventions with flake8.
+Build-Depends: ros-dashing-ros-workspace

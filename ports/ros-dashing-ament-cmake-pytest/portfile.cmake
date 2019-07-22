@@ -3,11 +3,9 @@ include(vcpkg_common_functions)
 set(VCPKG_BUILD_TYPE release)
 
 vcpkg_from_github(
-
     OUT_SOURCE_PATH SOURCE_PATH
     REPO gsoc-bloom-windows/ament_cmake-release
-    REF vcpkg/ros-dashing-ament-cmake-pytest_0.7.3-3_10
-    SHA512 881667db04958a0fc42bbcdda2becd8aa3f6d04cc36327b6623ffddcd492ddcebe0fa167fc08fe259cafad7d2fad1c0aa501c6afd6f6d3f5c6ef19779445b9ee
+    REF vcpkg/ros-dashing-ament-cmake-pytest_0.7.3-5_10
 )
 
 set(ROS_BASE_PATH "C:/opt/ros/dashing")

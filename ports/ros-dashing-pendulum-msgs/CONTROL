@@ -1,0 +1,4 @@
+Source: ros-dashing-pendulum-msgs
+Version: 0.7.8
+Description: Custom messages for real-time pendulum control.
+Build-Depends: ros-dashing-rosidl-default-generators, ros-dashing-builtin-interfaces, ros-dashing-ament-cmake, ros-dashing-rosidl-default-runtime, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation

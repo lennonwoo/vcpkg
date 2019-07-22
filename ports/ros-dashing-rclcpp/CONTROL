@@ -1,0 +1,4 @@
+Source: ros-dashing-rclcpp
+Version: 0.7.6
+Description: The ROS client library in C++.
+Build-Depends: ros-dashing-ament-cmake-gmock, ros-dashing-rosidl-generator-cpp, ros-dashing-rosgraph-msgs, ros-dashing-rmw, ros-dashing-ament-cmake, ros-dashing-rmw-implementation-cmake, ros-dashing-test-msgs, ros-dashing-rcl-interfaces, ros-dashing-rosidl-typesupport-c, ros-dashing-ament-lint-common, ros-dashing-builtin-interfaces, ros-dashing-rmw-implementation, ros-dashing-ament-cmake-ros, ros-dashing-rcl-yaml-param-parser, ros-dashing-ament-lint-auto, ros-dashing-rcl, ros-dashing-ament-cmake-gtest, ros-dashing-rosidl-typesupport-cpp, ros-dashing-ros-workspace

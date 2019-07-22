@@ -1,0 +1,4 @@
+Source: ros-dashing-quality-of-service-demo-cpp
+Version: 0.7.8
+Description: C++ Demo applications for Quality of Service features
+Build-Depends: ros-dashing-ament-lint-common, ros-dashing-example-interfaces, ros-dashing-launch-ros, ros-dashing-rcutils, ros-dashing-launch, ros-dashing-launch-testing, ros-dashing-rmw-implementation-cmake, ros-dashing-ament-cmake, ros-dashing-rclcpp, ros-dashing-std-msgs, ros-dashing-rmw, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace

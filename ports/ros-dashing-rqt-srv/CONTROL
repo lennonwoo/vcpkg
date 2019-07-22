@@ -1,0 +1,5 @@
+Source: ros-dashing-rqt-srv
+Version: 1.0.1
+Description: A Python GUI plugin for introspecting available ROS message types.
+ Note that the srvs available through this plugin is the ones that are stored on your machine, not on the ROS core your rqt instance connects to.
+Build-Depends: ros-dashing-rclpy, ros-dashing-rqt-gui, ros-dashing-rqt-msg, ros-dashing-ament-cmake, ros-dashing-rqt-gui-py, ros-dashing-ros-workspace

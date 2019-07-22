@@ -1,0 +1,4 @@
+Source: ros-dashing-fmi-adapter
+Version: 0.1.5
+Description: Wraps FMUs for co-simulation
+Build-Depends: ros-dashing-launch-testing, ros-dashing-rclcpp, ros-dashing-rcutils, ros-dashing-ament-cmake-gmock, ros-dashing-launch, ros-dashing-ament-cmake, ros-dashing-rcl-interfaces, ros-dashing-ament-lint-common, ros-dashing-launch-ros, ros-dashing-rclcpp-components, ros-dashing-rclcpp-lifecycle, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake-pytest, ros-dashing-std-msgs, ros-dashing-ros-workspace

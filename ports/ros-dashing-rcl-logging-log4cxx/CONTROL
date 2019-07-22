@@ -1,0 +1,4 @@
+Source: ros-dashing-rcl-logging-log4cxx
+Version: 0.2.1
+Description: C API providing common interface to a shared library wrapping 3rd party loggers.
+Build-Depends: ros-dashing-launch-testing, ros-dashing-rcutils, ros-dashing-ament-cmake-gmock, ros-dashing-ament-lint-common, ros-dashing-ament-cmake-ros, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake-pytest, ros-dashing-ros-workspace

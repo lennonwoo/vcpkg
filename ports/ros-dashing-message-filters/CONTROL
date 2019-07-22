@@ -1,0 +1,4 @@
+Source: ros-dashing-message-filters
+Version: 3.1.2
+Description: A set of ROS2 message filters which take in messages and may output those messages at a later time, based on the conditions that filter needs met.
+Build-Depends: ros-dashing-ament-cmake-python, ros-dashing-rclcpp, ros-dashing-rclpy, ros-dashing-builtin-interfaces, ros-dashing-sensor-msgs, ros-dashing-ament-cmake-ros, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake-pytest, ros-dashing-std-msgs, ros-dashing-python-cmake-module, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-qt-gui-py-common
+Version: 1.0.6
+Description: qt_gui_py_common provides common functionality for GUI plugins written in Python.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-index-python, ros-dashing-python-qt-binding, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

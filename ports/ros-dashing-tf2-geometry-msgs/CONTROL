@@ -1,0 +1,4 @@
+Source: ros-dashing-tf2-geometry-msgs
+Version: 0.11.3
+Description: tf2_geometry_msgs
+Build-Depends: ros-dashing-geometry-msgs, ros-dashing-tf2-ros, ros-dashing-orocos-kdl, ros-dashing-tf2, ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake-auto, ros-dashing-ros-workspace

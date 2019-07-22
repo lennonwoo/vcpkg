@@ -1,0 +1,4 @@
+Source: ros-dashing-topic-monitor
+Version: 0.7.8
+Description: Package containing tools for monitoring ROS 2 topics.
+Build-Depends: ros-dashing-ament-pep257, ros-dashing-launch-ros, ros-dashing-rclpy, ros-dashing-ament-flake8, ros-dashing-launch, ros-dashing-std-msgs, ros-dashing-ros-workspace

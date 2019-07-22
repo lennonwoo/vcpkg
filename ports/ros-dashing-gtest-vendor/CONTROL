@@ -1,0 +1,4 @@
+Source: ros-dashing-gtest-vendor
+Version: 1.8.9000
+Description: The package provides GoogleTest.
+Build-Depends: ros-dashing-ros-workspace

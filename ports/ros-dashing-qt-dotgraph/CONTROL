@@ -1,0 +1,4 @@
+Source: ros-dashing-qt-dotgraph
+Version: 1.0.6
+Description: qt_dotgraph provides helpers to work with dot graphs.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-pytest, ros-dashing-python-qt-binding, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

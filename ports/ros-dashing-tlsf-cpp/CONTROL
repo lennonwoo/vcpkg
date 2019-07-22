@@ -1,0 +1,4 @@
+Source: ros-dashing-tlsf-cpp
+Version: 0.7.1
+Description: C++ stdlib-compatible wrapper around tlsf allocator and ROS2 examples
+Build-Depends: ros-dashing-rclcpp, ros-dashing-tlsf, ros-dashing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-rmw, ros-dashing-rmw-implementation-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-std-msgs, ros-dashing-ros-workspace

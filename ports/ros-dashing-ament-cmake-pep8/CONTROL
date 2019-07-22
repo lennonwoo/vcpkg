@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-cmake-pep8
+Version: 0.7.3
+Description: The CMake API for ament_pep8 to check code against the style conventions in PEP 8.
+Build-Depends: ros-dashing-ament-cmake-test, ros-dashing-ament-cmake-core, ros-dashing-ament-cmake-lint-cmake, ros-dashing-ament-cmake-copyright, ros-dashing-ament-pep8, ros-dashing-ros-workspace

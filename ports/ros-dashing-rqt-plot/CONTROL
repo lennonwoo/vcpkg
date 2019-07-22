@@ -1,0 +1,4 @@
+Source: ros-dashing-rqt-plot
+Version: 1.0.6
+Description: rqt_plot provides a GUI plugin visualizing numeric values in a 2D plot using different plotting backends.
+Build-Depends: ros-dashing-qt-gui-py-common, ros-dashing-std-msgs, ros-dashing-rqt-gui, ros-dashing-rqt-gui-py, ros-dashing-rqt-py-common, ros-dashing-rclpy, ros-dashing-ament-cmake, ros-dashing-python-qt-binding, ros-dashing-ros-workspace

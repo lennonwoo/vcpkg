@@ -1,0 +1,4 @@
+Source: ros-dashing-fastrtps
+Version: 1.8.0
+Description: Implementation of RTPS standard.
+Build-Depends: ros-dashing-fastcdr, ros-dashing-ros-workspace

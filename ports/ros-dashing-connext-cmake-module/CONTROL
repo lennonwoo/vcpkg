@@ -1,0 +1,4 @@
+Source: ros-dashing-connext-cmake-module
+Version: 0.7.2
+Description: Provide CMake module to find RTI Connext.
+Build-Depends: ros-dashing-ament-lint-auto, ros-dashing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-launch-ros
+Version: 0.8.4
+Description: ROS specific extensions to the launch tool.
+Build-Depends: ros-dashing-lifecycle-msgs, ros-dashing-ament-copyright, ros-dashing-ament-pep257, ros-dashing-launch, ros-dashing-ament-flake8, ros-dashing-ament-index-python, ros-dashing-osrf-pycommon, ros-dashing-rclpy, ros-dashing-composition-interfaces, ros-dashing-ros-workspace

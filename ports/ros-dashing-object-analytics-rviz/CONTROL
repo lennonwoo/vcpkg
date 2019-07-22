@@ -1,0 +1,4 @@
+Source: ros-dashing-object-analytics-rviz
+Version: 0.5.4
+Description: Display object analytics result in rviz
+Build-Depends: ros-dashing-rclcpp, ros-dashing-ament-cmake, ros-dashing-visualization-msgs, ros-dashing-cv-bridge, ros-dashing-object-analytics-msgs, ros-dashing-sensor-msgs, ros-dashing-ament-lint-common, ros-dashing-message-filters, ros-dashing-geometry-msgs, ros-dashing-object-msgs, ros-dashing-ament-lint-auto, ros-dashing-std-msgs, ros-dashing-ros-workspace

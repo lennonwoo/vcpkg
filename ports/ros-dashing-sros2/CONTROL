@@ -1,0 +1,4 @@
+Source: ros-dashing-sros2
+Version: 0.7.1
+Description: Command line tools for managing SROS2 keys
+Build-Depends: ros-dashing-ros2cli, ros-dashing-ament-pep257, ros-dashing-ament-flake8, ros-dashing-ament-copyright, ros-dashing-rclpy, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-gazebo-ros
+Version: 3.3.1
+Description: Utilities to interface with Gazebo through ROS.
+Build-Depends: ros-dashing-geometry-msgs, ros-dashing-rclcpp, ros-dashing-std-msgs, ros-dashing-sensor-msgs, ros-dashing-builtin-interfaces, ros-dashing-tinyxml-vendor, ros-dashing-ament-cmake, ros-dashing-gazebo-dev, ros-dashing-ament-lint-common, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-gazebo-msgs, ros-dashing-ros-workspace

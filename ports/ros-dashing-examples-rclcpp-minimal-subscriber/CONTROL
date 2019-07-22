@@ -1,0 +1,4 @@
+Source: ros-dashing-examples-rclcpp-minimal-subscriber
+Version: 0.7.3
+Description: Examples of minimal subscribers
+Build-Depends: ros-dashing-rclcpp, ros-dashing-ament-cmake, ros-dashing-std-msgs, ros-dashing-ros-workspace

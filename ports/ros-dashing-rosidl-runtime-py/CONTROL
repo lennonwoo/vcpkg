@@ -1,0 +1,4 @@
+Source: ros-dashing-rosidl-runtime-py
+Version: 0.7.7
+Description: Runtime utilities for working with generated ROS interfaces in Python.
+Build-Depends: ros-dashing-ament-pep257, ros-dashing-ament-flake8, ros-dashing-test-msgs, ros-dashing-ament-xmllint, ros-dashing-rosidl-parser, ros-dashing-ament-copyright, ros-dashing-ros-workspace

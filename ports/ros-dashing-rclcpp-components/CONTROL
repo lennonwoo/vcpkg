@@ -1,0 +1,4 @@
+Source: ros-dashing-rclcpp-components
+Version: 0.7.6
+Description: Package containing tools for dynamically loadable components
+Build-Depends: ros-dashing-launch-testing, ros-dashing-rclcpp, ros-dashing-class-loader, ros-dashing-std-msgs, ros-dashing-ament-index-cpp, ros-dashing-ament-lint-common, ros-dashing-composition-interfaces, ros-dashing-ament-cmake-ros, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-gtest, ros-dashing-rcpputils, ros-dashing-ros-workspace

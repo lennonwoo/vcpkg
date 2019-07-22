@@ -1,0 +1,4 @@
+Source: ros-dashing-dummy-robot-bringup
+Version: 0.7.8
+Description: dummy robot bringup
+Build-Depends: ros-dashing-ament-lint-common, ros-dashing-launch-ros, ros-dashing-ament-index-python, ros-dashing-robot-state-publisher, ros-dashing-launch, ros-dashing-dummy-map-server, ros-dashing-dummy-sensors, ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake, ros-dashing-ros2run, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace

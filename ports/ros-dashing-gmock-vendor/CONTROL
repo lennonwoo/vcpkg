@@ -1,0 +1,4 @@
+Source: ros-dashing-gmock-vendor
+Version: 1.8.9000
+Description: The package provides GoogleMock.
+Build-Depends: ros-dashing-gtest-vendor, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-qt-gui-app
+Version: 1.0.6
+Description: qt_gui_app provides the main to start an instance of the integrated graphical user interface provided by qt_gui.
+Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-qt-gui, ros-dashing-ament-index-python, ros-dashing-ament-lint-common, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-ros2launch
+Version: 0.8.4
+Description: The launch command for ROS 2 command line tools.
+Build-Depends: ros-dashing-launch, ros-dashing-ament-copyright, ros-dashing-ament-pep257, ros-dashing-ament-flake8, ros-dashing-ros2cli, ros-dashing-ament-index-python, ros-dashing-ros2pkg, ros-dashing-launch-ros, ros-dashing-ros-workspace

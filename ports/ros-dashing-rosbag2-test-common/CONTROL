@@ -1,0 +1,4 @@
+Source: ros-dashing-rosbag2-test-common
+Version: 0.1.3
+Description: Commonly used test helper classes and fixtures for rosbag2
+Build-Depends: ros-dashing-rcutils, ros-dashing-ament-lint-common, ros-dashing-ament-lint-auto, ros-dashing-rclcpp, ros-dashing-ament-cmake, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-launch-testing
+Version: 0.8.4
+Description: A package to create tests which involve launch files and multiple processes.
+Build-Depends: ros-dashing-ament-pep257, ros-dashing-ament-index-python, ros-dashing-ament-copyright, ros-dashing-launch, ros-dashing-ament-flake8, ros-dashing-ros-workspace

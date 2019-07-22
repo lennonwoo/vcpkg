@@ -1,0 +1,4 @@
+Source: ros-dashing-rmw-implementation-cmake
+Version: 0.7.2
+Description: CMake functions which can discover and enumerate available implementations.
+Build-Depends: ros-dashing-ament-lint-auto, ros-dashing-ament-lint-common, ros-dashing-ament-cmake, ros-dashing-ros-workspace

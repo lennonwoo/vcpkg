@@ -1,0 +1,4 @@
+Source: ros-dashing-rosbag2-converter-default-plugins
+Version: 0.1.3
+Description: Package containing default plugins for format converters
+Build-Depends: ros-dashing-test-msgs, ros-dashing-rcutils, ros-dashing-rosidl-generator-cpp, ros-dashing-ament-lint-common, ros-dashing-ament-index-cpp, ros-dashing-rmw, ros-dashing-pluginlib, ros-dashing-ament-cmake-gmock, ros-dashing-rosbag2, ros-dashing-ament-lint-auto, ros-dashing-rosbag2-test-common, ros-dashing-rmw-fastrtps-cpp, ros-dashing-poco-vendor, ros-dashing-ament-cmake, ros-dashing-ros-workspace

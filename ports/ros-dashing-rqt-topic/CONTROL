@@ -1,0 +1,4 @@
+Source: ros-dashing-rqt-topic
+Version: 1.0.0
+Description: rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
+Build-Depends: ros-dashing-rqt-py-common, ros-dashing-rqt-gui, ros-dashing-python-qt-binding, ros-dashing-rqt-gui-py, ros-dashing-ros-workspace

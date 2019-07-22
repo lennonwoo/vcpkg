@@ -1,0 +1,4 @@
+Source: ros-dashing-dummy-sensors
+Version: 0.7.8
+Description: dummy sensor nodes
+Build-Depends: ros-dashing-ament-lint-common, ros-dashing-sensor-msgs, ros-dashing-rclcpp, ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace

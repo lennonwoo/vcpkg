@@ -1,0 +1,4 @@
+Source: ros-dashing-tf2-eigen
+Version: 0.11.3
+Description: tf2_eigen
+Build-Depends: ros-dashing-geometry-msgs, ros-dashing-tf2-ros, ros-dashing-ament-cmake-gtest, ros-dashing-tf2, ros-dashing-ament-cmake, ros-dashing-ros-workspace

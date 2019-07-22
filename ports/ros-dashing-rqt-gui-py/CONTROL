@@ -1,0 +1,4 @@
+Source: ros-dashing-rqt-gui-py
+Version: 1.0.4
+Description: rqt_gui_py enables GUI plugins to use the Python client library for ROS.
+Build-Depends: ros-dashing-ament-lint-auto, ros-dashing-qt-gui, ros-dashing-ament-lint-common, ros-dashing-rqt-gui, ros-dashing-ros-workspace

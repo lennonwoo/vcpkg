@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-uncrustify
+Version: 0.7.3
+Description: The ability to check code against style conventions using uncrustify and generate xUnit test result files.
+Build-Depends: ros-dashing-uncrustify-vendor, ros-dashing-ros-workspace

@@ -1,0 +1,4 @@
+Source: ros-dashing-ament-cmake-pclint
+Version: 0.7.3
+Description: The CMake API for ament_pclint to perform static code analysis on C/C++ code using PCLint.
+Build-Depends: ros-dashing-ament-cmake-test, ros-dashing-ament-cmake-core, ros-dashing-ament-pclint, ros-dashing-ament-cmake-lint-cmake, ros-dashing-ament-cmake-copyright, ros-dashing-ros-workspace
