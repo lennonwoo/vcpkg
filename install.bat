@@ -1,7 +1,9 @@
 @echo off
 
 call:append_unique_value PYTHONPATH "C:\opt\ros\dashing\Lib\site-packages"
-call C:\opt\ros\dashing\setup.bat
+call:append_unique_value VCPKG_DEFAULT_TRIPLET "x64-windows"
+call:call_file C:\opt\ros\dashing\setup.bat
+call:append_unique_value PATH "C:\opt\ros\dashing\Scripts"
 
 echo vcpkg.exe install %*
 vcpkg.exe install %*
@@ -31,4 +33,8 @@ vcpkg.exe install %*
     :: set result variable in parent scope
     set "%~1=%list%"
   )
+goto:eof
+
+:call_file
+  if exist "%~1" call "%~1%"
 goto:eof
