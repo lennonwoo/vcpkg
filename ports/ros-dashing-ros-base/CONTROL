@@ -1,4 +1,4 @@
 Source: ros-dashing-ros-base
 Version: 0.7.2
 Description: A package which extends 'ros_core' and includes other basic functionalities like tf2 and urdf.
-Build-Depends: ros-dashing-ros-core, ros-dashing-tf2, ros-dashing-tf2-geometry-msgs, ros-dashing-robot-state-publisher, ros-dashing-tf2-ros, ros-dashing-tf2-eigen, ros-dashing-urdf, ros-dashing-ament-cmake, ros-dashing-kdl-parser, ros-dashing-ros-workspaceI
+Build-Depends: ros-dashing-ros-core, ros-dashing-tf2, ros-dashing-tf2-geometry-msgs, ros-dashing-robot-state-publisher, ros-dashing-tf2-ros, ros-dashing-tf2-eigen, ros-dashing-urdf, ros-dashing-ament-cmake, ros-dashing-kdl-parser, ros-dashing-ros-workspace
