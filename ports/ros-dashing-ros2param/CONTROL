@@ -1,4 +1,4 @@
 Source: ros-dashing-ros2param
 Version: 0.7.4
 Description: The param command for ROS 2 command line tools.
-Build-Depends: ros-dashing-ament-copyright, ros-dashing-ros2cli, ros-dashing-ament-xmllint, ros-dashing-ament-pep257, ros-dashing-rclpy, ros-dashing-ros2service, ros-dashing-rcl-interfaces, ros-dashing-ros2node, ros-dashing-ament-flake8, ros-dashing-ros-workspace
+Build-Depends:

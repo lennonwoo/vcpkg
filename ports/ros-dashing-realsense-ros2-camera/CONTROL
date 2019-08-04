@@ -1,4 +1,4 @@
 Source: ros-dashing-realsense-ros2-camera
 Version: 2.0.4
 Description: The realsense_ros2_camera package
-Build-Depends: ros-dashing-ament-cmake-gtest, ros-dashing-tf2-ros, ros-dashing-ament-cmake, ros-dashing-rmw-implementation, ros-dashing-realsense-camera-msgs, ros-dashing-rosidl-default-runtime, ros-dashing-ament-lint-common, ros-dashing-cv-bridge, ros-dashing-sensor-msgs, ros-dashing-rclcpp, ros-dashing-ament-lint-auto, ros-dashing-librealsense2, ros-dashing-image-transport, ros-dashing-builtin-interfaces, ros-dashing-rosidl-default-generators, ros-dashing-std-msgs, ros-dashing-ros-workspace
+Build-Depends:

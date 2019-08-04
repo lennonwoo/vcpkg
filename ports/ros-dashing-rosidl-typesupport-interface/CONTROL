@@ -1,4 +1,4 @@
 Source: ros-dashing-rosidl-typesupport-interface
 Version: 0.7.4
 Description: The interface for rosidl typesupport packages.
-Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-lint-common, ros-dashing-ros-workspace
+Build-Depends:

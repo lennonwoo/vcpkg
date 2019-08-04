@@ -1,4 +1,4 @@
 Source: ros-dashing-rosbag2-transport
 Version: 0.1.3
 Description: Layer encapsulating ROS middleware to allow rosbag2 to be used with or without middleware
-Build-Depends: ros-dashing-test-msgs, ros-dashing-ament-lint-common, ros-dashing-rmw, ros-dashing-shared-queues-vendor, ros-dashing-ament-cmake-gmock, ros-dashing-rosbag2, ros-dashing-ament-lint-auto, ros-dashing-rosbag2-test-common, ros-dashing-rclcpp, ros-dashing-ament-cmake-ros, ros-dashing-ros-workspace
+Build-Depends:

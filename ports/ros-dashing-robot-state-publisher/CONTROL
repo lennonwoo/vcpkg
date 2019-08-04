@@ -1,4 +1,4 @@
 Source: ros-dashing-robot-state-publisher
 Version: 2.2.3
 Description: ROS2 version of the robot_state_publisher package
-Build-Depends: ros-dashing-rclcpp, ros-dashing-urdfdom-headers, ros-dashing-sensor-msgs, ros-dashing-geometry-msgs, ros-dashing-urdf, ros-dashing-kdl-parser, ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-orocos-kdl, ros-dashing-ament-lint-common, ros-dashing-tf2-ros, ros-dashing-ros-workspace
+Build-Depends:

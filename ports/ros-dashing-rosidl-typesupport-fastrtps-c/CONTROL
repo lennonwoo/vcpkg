@@ -1,4 +1,4 @@
 Source: ros-dashing-rosidl-typesupport-fastrtps-c
 Version: 0.7.1
 Description: Generate the C interfaces for eProsima FastRTPS.
-Build-Depends: ros-dashing-fastcdr, ros-dashing-rosidl-typesupport-fastrtps-cpp, ros-dashing-rosidl-generator-c, ros-dashing-rosidl-parser, ros-dashing-fastrtps-cmake-module, ros-dashing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-rmw, ros-dashing-ament-lint-auto, ros-dashing-rosidl-cmake, ros-dashing-rosidl-typesupport-interface, ros-dashing-fastrtps, ros-dashing-ros-workspace
+Build-Depends:

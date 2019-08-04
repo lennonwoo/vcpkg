@@ -1,4 +1,4 @@
 Source: ros-dashing-tinydir-vendor
 Version: 1.1.0
 Description: CMake shim over tinydir: https://github.com/cxong/tinydir/
-Build-Depends: ros-dashing-ros-workspace
+Build-Depends:

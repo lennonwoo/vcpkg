@@ -1,4 +1,4 @@
 Source: ros-dashing-test-interface-files
 Version: 0.7.1
 Description: A package containing message definitions and fixtures used exclusively for testing purposes.
-Build-Depends: ros-dashing-ament-cmake-core, ros-dashing-ros-workspace
+Build-Depends:

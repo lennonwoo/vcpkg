@@ -2,4 +2,4 @@ Source: ros-dashing-rosgraph-msgs
 Version: 0.7.4
 Description: Messages relating to the ROS Computation Graph.
  These are generally considered to be low-level messages that end users do not interact with.
-Build-Depends: ros-dashing-ament-lint-common, ros-dashing-ament-cmake, ros-dashing-rosidl-default-generators, ros-dashing-builtin-interfaces, ros-dashing-rosidl-default-runtime, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation
+Build-Depends:

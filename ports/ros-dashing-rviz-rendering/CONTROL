@@ -1,4 +1,4 @@
 Source: ros-dashing-rviz-rendering
 Version: 6.1.2
 Description: Library which provides the 3D rendering functionality in rviz.
-Build-Depends: ros-dashing-ament-cmake-cppcheck, ros-dashing-ament-cmake-uncrustify, ros-dashing-ament-cmake-gmock, ros-dashing-ament-cmake-cpplint, ros-dashing-ament-cmake, ros-dashing-ament-index-cpp, ros-dashing-resource-retriever, ros-dashing-rviz-assimp-vendor, ros-dashing-ament-cmake-lint-cmake, ros-dashing-ament-cmake-gtest, ros-dashing-rviz-ogre-vendor, ros-dashing-ros-workspace
+Build-Depends:

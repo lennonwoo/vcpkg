@@ -1,4 +1,4 @@
 Source: ros-dashing-rqt-py-console
 Version: 1.0.0
 Description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
-Build-Depends: ros-dashing-python-qt-binding, ros-dashing-rqt-gui-py, ros-dashing-ament-cmake, ros-dashing-qt-gui, ros-dashing-ament-index-python, ros-dashing-rqt-gui, ros-dashing-rclpy, ros-dashing-qt-gui-py-common, ros-dashing-ros-workspace
+Build-Depends:

@@ -1,4 +1,4 @@
 Source: ros-dashing-rosidl-typesupport-c
 Version: 0.7.1
 Description: Generate the type support for C messages.
-Build-Depends: ros-dashing-poco-vendor, ros-dashing-ament-cmake-ros, ros-dashing-ament-lint-common, ros-dashing-rosidl-generator-c, ros-dashing-rosidl-typesupport-introspection-c, ros-dashing-rosidl-typesupport-interface, ros-dashing-rmw-implementation, ros-dashing-ament-cmake-core, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace
+Build-Depends:

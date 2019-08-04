@@ -1,4 +1,4 @@
 Source: ros-dashing-rosidl-generator-py
 Version: 0.7.7
 Description: Generate the ROS interfaces in Python.
-Build-Depends: ros-dashing-ament-lint-common, ros-dashing-rosidl-typesupport-c, ros-dashing-rosidl-generator-c, ros-dashing-rosidl-typesupport-interface, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake, ros-dashing-ament-index-python, ros-dashing-python-cmake-module, ros-dashing-rosidl-cmake, ros-dashing-rmw, ros-dashing-rosidl-parser, ros-dashing-rmw-implementation-cmake, ros-dashing-ament-cmake-pytest, ros-dashing-rmw-implementation, ros-dashing-ros-workspace
+Build-Depends:

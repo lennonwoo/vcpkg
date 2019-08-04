@@ -1,4 +1,4 @@
 Source: ros-dashing-poco-vendor
 Version: 1.2.0
 Description: CMake shim over the poco library.
-Build-Depends: ros-dashing-ros-workspace
+Build-Depends:

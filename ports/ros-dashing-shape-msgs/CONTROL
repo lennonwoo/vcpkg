@@ -1,4 +1,4 @@
 Source: ros-dashing-shape-msgs
 Version: 0.7.0
 Description: A package containing some message definitions which describe geometric shapes.
-Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-geometry-msgs, ros-dashing-rosidl-default-generators, ros-dashing-rosidl-default-runtime, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation
+Build-Depends:

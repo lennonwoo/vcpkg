@@ -1,4 +1,4 @@
 Source: ros-dashing-python-cmake-module
 Version: 0.7.7
 Description: Provide CMake module with extra functionality for Python.
-Build-Depends: ros-dashing-ament-lint-common, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Build-Depends:

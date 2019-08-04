@@ -1,4 +1,4 @@
 Source: ros-dashing-examples-rclcpp-minimal-composition
 Version: 0.7.3
 Description: Minimalist examples of composing nodes in the same process
-Build-Depends: ros-dashing-rclcpp-components, ros-dashing-rclcpp, ros-dashing-ament-cmake, ros-dashing-std-msgs, ros-dashing-ros-workspace
+Build-Depends:

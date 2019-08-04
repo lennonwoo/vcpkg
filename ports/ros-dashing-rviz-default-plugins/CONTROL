@@ -1,4 +1,4 @@
 Source: ros-dashing-rviz-default-plugins
 Version: 6.1.2
 Description: Several default plugins for rviz to cover the basic functionality.
-Build-Depends: ros-dashing-rclcpp, ros-dashing-ament-cmake-gmock, ros-dashing-visualization-msgs, ros-dashing-rviz-common, ros-dashing-nav-msgs, ros-dashing-ament-cmake-gtest, ros-dashing-rviz-visual-testing-framework, ros-dashing-ament-cmake-cppcheck, ros-dashing-ament-cmake, ros-dashing-map-msgs, ros-dashing-ament-cmake-lint-cmake, ros-dashing-ament-cmake-uncrustify, ros-dashing-ament-cmake-cpplint, ros-dashing-geometry-msgs, ros-dashing-pluginlib, ros-dashing-rviz-rendering, ros-dashing-rviz-rendering-tests, ros-dashing-ament-index-cpp, ros-dashing-resource-retriever, ros-dashing-laser-geometry, ros-dashing-tinyxml-vendor, ros-dashing-urdf, ros-dashing-ros-workspace
+Build-Depends:

@@ -1,4 +1,4 @@
 Source: ros-dashing-rosidl-cmake
 Version: 0.7.4
 Description: The CMake functionality to invoke code generation for ROS interface files.
-Build-Depends: ros-dashing-ament-cmake-python, ros-dashing-rosidl-parser, ros-dashing-ament-cmake, ros-dashing-rosidl-adapter, ros-dashing-ament-lint-common, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace
+Build-Depends:

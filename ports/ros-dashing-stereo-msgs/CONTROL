@@ -1,4 +1,4 @@
 Source: ros-dashing-stereo-msgs
 Version: 0.7.0
 Description: A package containing some stereo camera related message definitions.
-Build-Depends: ros-dashing-rosidl-default-runtime, ros-dashing-rosidl-default-generators, ros-dashing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-sensor-msgs, ros-dashing-std-msgs, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation
+Build-Depends:

@@ -1,4 +1,4 @@
 Source: ros-dashing-rmw-connext-shared-cpp
 Version: 0.7.3
 Description: C++ types and functions shared by the ROS middleware interface to RTI Connext Static and RTI Connext Dynamic.
-Build-Depends: ros-dashing-rmw, ros-dashing-ament-cmake, ros-dashing-rosidl-cmake, ros-dashing-rcutils, ros-dashing-ament-lint-common, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace
+Build-Depends:

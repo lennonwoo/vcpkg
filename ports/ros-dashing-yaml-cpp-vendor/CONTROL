@@ -1,4 +1,4 @@
 Source: ros-dashing-yaml-cpp-vendor
 Version: 6.0.1
 Description: Wrapper around yaml-cpp, it provides a fixed CMake module and an ExternalProject build of it.
-Build-Depends: ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Build-Depends:

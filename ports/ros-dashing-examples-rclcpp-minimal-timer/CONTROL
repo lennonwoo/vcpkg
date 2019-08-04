@@ -1,4 +1,4 @@
 Source: ros-dashing-examples-rclcpp-minimal-timer
 Version: 0.7.3
 Description: Examples of minimal nodes which have timers
-Build-Depends: ros-dashing-rclcpp, ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Build-Depends:

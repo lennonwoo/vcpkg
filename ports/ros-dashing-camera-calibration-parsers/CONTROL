@@ -1,4 +1,4 @@
 Source: ros-dashing-camera-calibration-parsers
 Version: 2.1.1
 Description: camera_calibration_parsers contains routines for reading and writing camera calibration parameters.
-Build-Depends: ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake-ros, ros-dashing-yaml-cpp-vendor, ros-dashing-sensor-msgs, ros-dashing-ament-lint-common, ros-dashing-ament-lint-auto, ros-dashing-rclcpp, ros-dashing-ros-workspace
+Build-Depends:

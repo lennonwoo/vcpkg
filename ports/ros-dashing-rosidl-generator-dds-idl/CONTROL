@@ -1,4 +1,4 @@
 Source: ros-dashing-rosidl-generator-dds-idl
 Version: 0.7.1
 Description: Generate the DDS interfaces for ROS interfaces.
-Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-rosidl-cmake, ros-dashing-ament-lint-common, ros-dashing-ros-workspace
+Build-Depends:

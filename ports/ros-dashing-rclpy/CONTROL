@@ -1,4 +1,4 @@
 Source: ros-dashing-rclpy
 Version: 0.7.4
 Description: Package containing the Python client.
-Build-Depends: ros-dashing-rcutils, ros-dashing-rcl, ros-dashing-rosgraph-msgs, ros-dashing-ament-cmake, ros-dashing-ament-index-python, ros-dashing-rmw-implementation-cmake, ros-dashing-rosidl-generator-py, ros-dashing-rcl-interfaces, ros-dashing-ament-lint-common, ros-dashing-unique-identifier-msgs, ros-dashing-test-msgs, ros-dashing-rmw-implementation, ros-dashing-rcl-action, ros-dashing-rcl-yaml-param-parser, ros-dashing-ament-lint-auto, ros-dashing-builtin-interfaces, ros-dashing-ament-cmake-pytest, ros-dashing-python-cmake-module, ros-dashing-ros-workspace
+Build-Depends:

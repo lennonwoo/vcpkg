@@ -1,4 +1,4 @@
 Source: ros-dashing-shared-queues-vendor
 Version: 0.1.3
 Description: Vendor package for concurrent queues from moodycamel
-Build-Depends: ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Build-Depends:

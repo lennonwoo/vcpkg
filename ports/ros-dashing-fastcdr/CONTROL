@@ -1,4 +1,4 @@
 Source: ros-dashing-fastcdr
 Version: 1.0.9
 Description: CDR serialization implementation.
-Build-Depends: ros-dashing-ros-workspace
+Build-Depends:

@@ -1,0 +1,4 @@
+Source: ros-dashing-behaviortree-cpp
+Version: 2.5.2
+Description: This package provides a behavior trees core.
+Build-Depends:

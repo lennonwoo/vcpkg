@@ -1,4 +1,4 @@
 Source: ros-dashing-ament-cmake-export-dependencies
 Version: 0.7.3
 Description: The ability to export dependencies to downstream packages in the ament buildsystem in CMake.
-Build-Depends: ros-dashing-ament-cmake-libraries, ros-dashing-ament-cmake-core, ros-dashing-ros-workspace
+Build-Depends:

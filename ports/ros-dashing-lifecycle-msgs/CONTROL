@@ -1,4 +1,4 @@
 Source: ros-dashing-lifecycle-msgs
 Version: 0.7.4
 Description: A package containing some lifecycle related message and service definitions.
-Build-Depends: ros-dashing-ament-lint-common, ros-dashing-ament-cmake, ros-dashing-rosidl-default-generators, ros-dashing-ament-lint-auto, ros-dashing-rosidl-default-runtime, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation
+Build-Depends:

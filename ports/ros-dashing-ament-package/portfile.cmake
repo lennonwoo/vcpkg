@@ -11,7 +11,7 @@ vcpkg_from_github(
 find_package(PythonInterp 3)
 
 if (${PYTHONINTERP_FOUND})
-    set(SETUP_INSTALL_PREFIX "C:/opt/ros/dashing")
+    set(SETUP_INSTALL_PREFIX "${CURRENT_PACKAGES_DIR}/opt/ros/dashing")
     set(SETUP_INSTALL_PYTHONPATH "${SETUP_INSTALL_PREFIX}/Lib/site-packages")
     file(TO_NATIVE_PATH "${SETUP_INSTALL_PREFIX}" SETUP_INSTALL_PREFIX)
     file(TO_NATIVE_PATH "${SETUP_INSTALL_PYTHONPATH}" SETUP_INSTALL_PYTHONPATH)

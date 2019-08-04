@@ -2,4 +2,4 @@ Source: ros-dashing-rviz-assimp-vendor
 Version: 6.1.2
 Description: Wrapper around assimp, providing nothing but a dependency on assimp, on some systems.
  On others, it provides a fixed CMake module or even an ExternalProject build of assimp.
-Build-Depends: ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Build-Depends:

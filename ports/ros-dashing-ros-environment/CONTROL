@@ -1,4 +1,4 @@
 Source: ros-dashing-ros-environment
 Version: 2.3.0
 Description: The package provides the environment variables `ROS_VERSION` and `ROS_DISTRO`.
-Build-Depends: ros-dashing-ament-cmake-core, ros-dashing-ros-workspace
+Build-Depends:

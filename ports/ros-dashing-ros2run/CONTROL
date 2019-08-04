@@ -1,4 +1,4 @@
 Source: ros-dashing-ros2run
 Version: 0.7.4
 Description: The run command for ROS 2 command line tools.
-Build-Depends: ros-dashing-ament-copyright, ros-dashing-ros2cli, ros-dashing-ament-xmllint, ros-dashing-ament-pep257, ros-dashing-ros2pkg, ros-dashing-ament-flake8, ros-dashing-ros-workspace
+Build-Depends:

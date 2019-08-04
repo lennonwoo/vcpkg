@@ -1,4 +1,4 @@
 Source: ros-dashing-examples-rclpy-minimal-action-client
 Version: 0.7.3
 Description: Examples of minimal action clients using rclpy.
-Build-Depends: ros-dashing-ament-pep257, ros-dashing-ament-copyright, ros-dashing-example-interfaces, ros-dashing-ament-flake8, ros-dashing-rclpy, ros-dashing-ros-workspace
+Build-Depends:

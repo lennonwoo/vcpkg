@@ -1,4 +1,4 @@
 Source: ros-dashing-gazebo-ros-pkgs
 Version: 3.3.1
 Description: Interface for using ROS with the Gazebo simulator.
-Build-Depends: ros-dashing-gazebo-ros, ros-dashing-gazebo-plugins, ros-dashing-ament-cmake, ros-dashing-gazebo-dev, ros-dashing-gazebo-msgs, ros-dashing-ros-workspace
+Build-Depends:

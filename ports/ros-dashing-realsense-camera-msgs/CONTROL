@@ -1,4 +1,4 @@
 Source: ros-dashing-realsense-camera-msgs
 Version: 2.0.4
 Description: A package containing realsense camera messages definitions.
-Build-Depends: ros-dashing-ament-cmake, ros-dashing-rosidl-default-runtime, ros-dashing-ament-lint-common, ros-dashing-rosidl-default-generators, ros-dashing-builtin-interfaces, ros-dashing-std-msgs, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation
+Build-Depends:

@@ -1,4 +1,4 @@
 Source: ros-dashing-tf2-msgs
 Version: 0.11.3
 Description: tf2_msgs
-Build-Depends: ros-dashing-geometry-msgs, ros-dashing-builtin-interfaces, ros-dashing-rosidl-default-generators, ros-dashing-rosidl-default-runtime, ros-dashing-action-msgs, ros-dashing-ament-cmake, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation
+Build-Depends:

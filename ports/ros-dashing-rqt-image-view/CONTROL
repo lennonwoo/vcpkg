@@ -1,4 +1,4 @@
 Source: ros-dashing-rqt-image-view
 Version: 1.0.2
 Description: rqt_image_view provides a GUI plugin for displaying images using image_transport.
-Build-Depends: ros-dashing-rclcpp, ros-dashing-qt-gui-cpp, ros-dashing-sensor-msgs, ros-dashing-ament-cmake, ros-dashing-cv-bridge, ros-dashing-rqt-gui-cpp, ros-dashing-geometry-msgs, ros-dashing-rqt-gui, ros-dashing-image-transport, ros-dashing-ros-workspace
+Build-Depends:

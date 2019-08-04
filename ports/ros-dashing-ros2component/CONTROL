@@ -1,4 +1,4 @@
 Source: ros-dashing-ros2component
 Version: 0.7.4
 Description: The component command for ROS 2 command line tools.
-Build-Depends: ros-dashing-rclcpp-components, ros-dashing-ament-copyright, ros-dashing-ros2cli, ros-dashing-ament-xmllint, ros-dashing-ament-pep257, ros-dashing-composition-interfaces, ros-dashing-rclpy, ros-dashing-ros2pkg, ros-dashing-rcl-interfaces, ros-dashing-ros2node, ros-dashing-ament-index-python, ros-dashing-ament-flake8, ros-dashing-ros2param, ros-dashing-ros-workspace
+Build-Depends:

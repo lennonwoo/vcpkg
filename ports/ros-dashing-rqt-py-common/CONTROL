@@ -2,4 +2,4 @@ Source: ros-dashing-rqt-py-common
 Version: 1.0.4
 Description: rqt_py_common provides common functionality for rqt plugins written in Python.
  Despite no plugin is provided, this package is part of the rqt_common_plugins repository to keep refactoring generic functionality from these common plugins into this package as easy as possible. Functionality included in this package should cover generic ROS concepts and should not introduce any special dependencies beside &quot;ros_base&quot;.
-Build-Depends: ros-dashing-rclpy, ros-dashing-ament-cmake-pytest, ros-dashing-ament-cmake, ros-dashing-rosidl-default-generators, ros-dashing-python-qt-binding, ros-dashing-qt-gui, ros-dashing-rosidl-default-runtime, ros-dashing-ros-workspace, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation
+Build-Depends:

@@ -1,0 +1,4 @@
+Source: ros-dashing-test-osrf-testing-tools-cpp
+Version: 1.2.1
+Description: Test package, which uses things exported by osrf_testing_tools_cpp.
+Build-Depends:

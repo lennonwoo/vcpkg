@@ -1,4 +1,4 @@
 Source: ros-dashing-launch
 Version: 0.8.4
 Description: The ROS launch tool.
-Build-Depends: ros-dashing-osrf-pycommon, ros-dashing-ament-pep257, ros-dashing-ament-flake8, ros-dashing-ament-copyright, ros-dashing-ros-workspace
+Build-Depends:

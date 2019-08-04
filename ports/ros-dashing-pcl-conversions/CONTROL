@@ -1,4 +1,4 @@
 Source: ros-dashing-pcl-conversions
 Version: 2.0.0
 Description: Provides conversions from PCL data types and ROS message types
-Build-Depends: ros-dashing-ament-cmake, ros-dashing-builtin-interfaces, ros-dashing-ament-cmake-gtest, ros-dashing-std-msgs, ros-dashing-sensor-msgs, ros-dashing-ros-workspace
+Build-Depends:

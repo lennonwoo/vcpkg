@@ -1,4 +1,4 @@
 Source: ros-dashing-libcurl-vendor
 Version: 2.1.0
 Description: Wrapper around libcurl, it provides a fixed CMake module and an ExternalProject build of it.
-Build-Depends: ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Build-Depends:

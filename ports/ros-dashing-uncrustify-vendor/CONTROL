@@ -2,4 +2,4 @@ Source: ros-dashing-uncrustify-vendor
 Version: 1.2.0
 Description: Wrapper around uncrustify, providing nothing but a dependency on uncrustify, on some systems.
  On others, it provides an ExternalProject build of uncrustify.
-Build-Depends: ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Build-Depends:

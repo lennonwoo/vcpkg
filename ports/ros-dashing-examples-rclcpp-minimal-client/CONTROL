@@ -1,4 +1,4 @@
 Source: ros-dashing-examples-rclcpp-minimal-client
 Version: 0.7.3
 Description: Examples of minimal service clients
-Build-Depends: ros-dashing-rclcpp, ros-dashing-ament-cmake, ros-dashing-example-interfaces, ros-dashing-ros-workspace
+Build-Depends:

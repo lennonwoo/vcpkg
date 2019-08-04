@@ -2,4 +2,4 @@ Source: ros-dashing-rcl
 Version: 0.7.5
 Description: The ROS client library common implementation.
  This package contains an API which builds on the ROS middleware API and is optionally built upon by the other ROS client libraries.
-Build-Depends: ros-dashing-ament-lint-common, ros-dashing-test-msgs, ros-dashing-rcl-logging-noop, ros-dashing-launch, ros-dashing-ament-cmake-ros, ros-dashing-rosidl-generator-c, ros-dashing-ament-cmake, ros-dashing-rmw, ros-dashing-osrf-testing-tools-cpp, ros-dashing-rosidl-default-runtime, ros-dashing-ament-cmake-gtest, ros-dashing-rcutils, ros-dashing-rmw-implementation, ros-dashing-tinydir-vendor, ros-dashing-rcl-interfaces, ros-dashing-launch-testing-ament-cmake, ros-dashing-launch-testing, ros-dashing-ament-cmake-pytest, ros-dashing-rmw-implementation-cmake, ros-dashing-ament-lint-auto, ros-dashing-ros-workspace
+Build-Depends:

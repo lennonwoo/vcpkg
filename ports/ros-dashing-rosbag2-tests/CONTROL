@@ -1,4 +1,4 @@
 Source: ros-dashing-rosbag2-tests
 Version: 0.1.3
 Description: Tests package for rosbag2
-Build-Depends: ros-dashing-test-msgs, ros-dashing-ament-lint-common, ros-dashing-ament-index-cpp, ros-dashing-ros2bag, ros-dashing-rosbag2-storage, ros-dashing-rosbag2-storage-default-plugins, ros-dashing-ament-cmake-gmock, ros-dashing-rosbag2, ros-dashing-ament-lint-auto, ros-dashing-rosbag2-converter-default-plugins, ros-dashing-rosbag2-test-common, ros-dashing-rclcpp, ros-dashing-std-msgs, ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Build-Depends:
