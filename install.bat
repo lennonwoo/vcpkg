@@ -7,6 +7,7 @@ call:append_unique_value PATH "C:\opt\ros\dashing\Scripts"
 
 echo vcpkg.exe install %*
 vcpkg.exe install %*
+if %ERRORLEVEL% GEQ 1 EXIT /B 1
 
 :append_unique_value
   setlocal enabledelayedexpansion
