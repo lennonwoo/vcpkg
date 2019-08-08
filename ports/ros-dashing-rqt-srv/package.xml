@@ -1,11 +1,12 @@
-<package>
+<package format="2">
   <name>rqt_srv</name>
-  <version>0.4.8</version>
+  <version>1.0.1</version>
   <description>A Python GUI plugin for introspecting available ROS message types.
   Note that the srvs available through this plugin is the ones that are stored
   on your machine, not on the ROS core your rqt instance connects to.</description>
   <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <maintainer email="ablasdel@gmail.com">Aaron Blasdel</maintainer>
+  <maintainer email="mikeblautman@gmail.com">Michael Lautman</maintainer>
 
   <license>BSD</license>
 
@@ -15,17 +16,17 @@
 
   <author>Aaron Blasdel</author>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <run_depend>rosmsg</run_depend>
-  <run_depend>rospy</run_depend>
-  <run_depend>rqt_gui</run_depend>
-  <run_depend>rqt_gui_py</run_depend>
-  <run_depend>rqt_msg</run_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
+  <exec_depend>rqt_msg</exec_depend>
 
   <export>
     <architecture_independent/>
     <rqt_gui plugin="${prefix}/plugin.xml"/>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>
 

@@ -1,4 +1,0 @@
-Source: ros-dashing-ompl
-Version: 1.4.2
-Description: OMPL is a free sampling-based motion planning library.
-Build-Depends:

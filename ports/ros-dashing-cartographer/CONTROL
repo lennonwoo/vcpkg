@@ -1,4 +1,0 @@
-Source: ros-dashing-cartographer
-Version: 1.0.0
-Description: Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
-Build-Depends:

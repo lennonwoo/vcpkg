@@ -1,4 +1,0 @@
-Source: ros-dashing-gazebo-plugins
-Version: 3.3.1
-Description: Robot-independent Gazebo plugins for sensors, motors and dynamic reconfigurable components.
-Build-Depends:

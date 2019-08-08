@@ -1,4 +1,0 @@
-Source: ros-dashing-teleop-twist-joy
-Version: 2.2.0
-Description: Generic joystick teleop for twist robots.
-Build-Depends:

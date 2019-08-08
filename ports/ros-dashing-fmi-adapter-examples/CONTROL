@@ -1,4 +1,0 @@
-Source: ros-dashing-fmi-adapter-examples
-Version: 0.1.5
-Description: Provides small examples for use of the fmi_adapter package
-Build-Depends:

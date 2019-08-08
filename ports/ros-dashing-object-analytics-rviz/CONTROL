@@ -1,4 +1,0 @@
-Source: ros-dashing-object-analytics-rviz
-Version: 0.5.4
-Description: Display object analytics result in rviz
-Build-Depends:

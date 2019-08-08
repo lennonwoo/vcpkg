@@ -1,4 +1,0 @@
-Source: ros-dashing-fmi-adapter
-Version: 0.1.5
-Description: Wraps FMUs for co-simulation
-Build-Depends:

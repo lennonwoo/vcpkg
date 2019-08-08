@@ -1,12 +1,16 @@
-<package>
+<package format="2">
   <name>ros_environment</name>
-  <version>1.2.1</version>
-  <description>The package provides the environment variables `ROS_VERSION`, `ROS_DISTRO`, `ROS_PACKAGE_PATH`, and `ROS_ETC_DIR`.</description>
+  <version>2.3.0</version>
+  <description>The package provides the environment variables `ROS_VERSION` and `ROS_DISTRO`.</description>
   <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <license>Apache License 2.0</license>
 
   <url type="repository">https://github.com/ros/ros_environment</url>
   <url type="bugtracker">https://github.com/ros/ros_environment/issues</url>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake_core</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>

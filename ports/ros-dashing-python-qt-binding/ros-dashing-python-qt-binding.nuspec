@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ros-dashing-python-qt-binding</id>
+    <version>1.0.1</version>
+    <title>ros-dashing-python-qt-binding</title>
+    <authors>Dirk Thomas</authors>
+    <owners>OSRF</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This stack provides Python bindings for Qt.
+ There are two providers: pyside and pyqt. PySide2 is available under the GPL, LGPL and a commercial license. PyQt is released under the GPL. Both the bindings and tools to build bindings are included from each available provider. For PySide, it is called &quot;Shiboken&quot;. For PyQt, this is called &quot;SIP&quot;. Also provided is adapter code to make the user's Python code independent of which binding provider was actually used which makes it very easy to switch between these.</description>
+<dependencies>
+      <dependency id="ros-dashing-ros-workspace"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

@@ -1,4 +1,0 @@
-Source: ros-dashing-rosidl-typesupport-connext-c
-Version: 0.7.2
-Description: Generate the C interfaces for RTI Connext.
-Build-Depends:

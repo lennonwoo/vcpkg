@@ -1,4 +1,0 @@
-Source: ros-dashing-depthimage-to-laserscan
-Version: 2.2.1
-Description: depthimage_to_laserscan
-Build-Depends:

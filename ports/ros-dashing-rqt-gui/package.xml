@@ -1,6 +1,6 @@
-<package>
+<package format="2">
   <name>rqt_gui</name>
-  <version>0.5.0</version>
+  <version>1.0.4</version>
   <description>rqt_gui provides the main to start an instance of the ROS integrated graphical user interface provided by qt_gui.</description>
   <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
 
@@ -12,9 +12,18 @@
 
   <author>Dirk Thomas</author>
 
-  <buildtool_depend>catkin</buildtool_depend>
-
   <build_depend version_gte="0.3.0">qt_gui</build_depend>
-  <run_depend>catkin</run_depend>
-  <run_depend version_gte="0.3.0">qt_gui</run_depend>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python_qt_binding</exec_depend>
+  <exec_depend>python3-catkin-pkg-modules</exec_depend>
+  <exec_depend version_gte="0.3.0">qt_gui</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
 </package>

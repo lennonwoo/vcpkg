@@ -5,7 +5,7 @@ set(VCPKG_BUILD_TYPE release)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO gsoc-bloom-windows/ament_package-release
-    REF vcpkg/ros-dashing-ament-package_0.7.0-5_10
+    REF vcpkg/ros-dashing-ament-package_0.7.0-6_10
 )
 
 find_package(PythonInterp 3)
@@ -16,7 +16,7 @@ if (${PYTHONINTERP_FOUND})
     file(TO_NATIVE_PATH "${SETUP_INSTALL_PREFIX}" SETUP_INSTALL_PREFIX)
     file(TO_NATIVE_PATH "${SETUP_INSTALL_PYTHONPATH}" SETUP_INSTALL_PYTHONPATH)
 
-    # make the Lib
+    # make the directory
     file(MAKE_DIRECTORY ${SETUP_INSTALL_PYTHONPATH})
     set(INSTALL_CMD
         # if we want to use install --prefix, we must use following line to set PYTHONPATH

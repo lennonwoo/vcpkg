@@ -4,14 +4,13 @@ set(VCPKG_BUILD_TYPE release)
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO gsoc-bloom-windows/osrf_testings_tools_cpp-release
-    REF vcpkg/ros-dashing-test-osrf-testing-tools-cpp_1.2.1-5_10
+    REPO gsoc-bloom-windows/osrf_testing_tools_cpp-release
+    REF vcpkg/ros-dashing-test-osrf-testing-tools-cpp_1.2.1-6_10
 )
 
 set(ROS_BASE_PATH "C:/opt/ros/dashing")
 file(TO_NATIVE_PATH "${ROS_BASE_PATH}" ROS_BASE_PATH)
 set(ENV{DESTDIR} ${CURRENT_PACKAGES_DIR})
-message(STATUS "destdir is $ENV{DESTDIR}")
 
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}

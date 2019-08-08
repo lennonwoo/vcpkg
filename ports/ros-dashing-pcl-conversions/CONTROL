@@ -1,4 +1,0 @@
-Source: ros-dashing-pcl-conversions
-Version: 2.0.0
-Description: Provides conversions from PCL data types and ROS message types
-Build-Depends:

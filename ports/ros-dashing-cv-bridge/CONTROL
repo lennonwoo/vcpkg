@@ -1,4 +1,0 @@
-Source: ros-dashing-cv-bridge
-Version: 2.1.2
-Description: This contains CvBridge, which converts between ROS2 Image messages and OpenCV images.
-Build-Depends:

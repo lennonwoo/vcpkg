@@ -1,8 +1,9 @@
-<package>
+<package format="2">
   <name>rqt_py_console</name>
-  <version>0.4.8</version>
+  <version>1.0.0</version>
   <description>rqt_py_console is a Python GUI plugin providing an interactive Python console.</description>
   <maintainer email="scholz@sim.tu-darmstadt.de">Dorian Scholz</maintainer>
+  <maintainer email="mikeblautman@gmail.com">Michael Lautman</maintainer>
 
   <license>BSD</license>
 
@@ -12,18 +13,19 @@
 
   <author>Dorian Scholz</author>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <run_depend version_gte="0.2.19">python_qt_binding</run_depend>
-  <run_depend>python-rospkg</run_depend>
-  <run_depend>qt_gui</run_depend>
-  <run_depend>qt_gui_py_common</run_depend>
-  <run_depend>rospy</run_depend>
-  <run_depend>rqt_gui</run_depend>
-  <run_depend>rqt_gui_py</run_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend version_gte="0.2.19">python_qt_binding</exec_depend>
+  <exec_depend>qt_gui</exec_depend>
+  <exec_depend>qt_gui_py_common</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
 
   <export>
     <architecture_independent/>
     <qt_gui plugin="${prefix}/plugin.xml"/>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>

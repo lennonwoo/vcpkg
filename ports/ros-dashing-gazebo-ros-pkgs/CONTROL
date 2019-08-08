@@ -1,4 +1,0 @@
-Source: ros-dashing-gazebo-ros-pkgs
-Version: 3.3.1
-Description: Interface for using ROS with the Gazebo simulator.
-Build-Depends:

@@ -1,4 +1,0 @@
-Source: ros-dashing-gazebo-ros
-Version: 3.3.1
-Description: Utilities to interface with Gazebo through ROS.
-Build-Depends:

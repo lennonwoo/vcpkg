@@ -1,4 +1,0 @@
-Source: ros-dashing-object-msgs
-Version: 0.4.0
-Description: This package defines messages for NCS inference
-Build-Depends:

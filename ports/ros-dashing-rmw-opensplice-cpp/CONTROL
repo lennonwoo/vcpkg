@@ -1,4 +1,0 @@
-Source: ros-dashing-rmw-opensplice-cpp
-Version: 0.7.2
-Description: Implement the ROS middleware interface using PrismTech OpenSplice static code generation in C++.
-Build-Depends:

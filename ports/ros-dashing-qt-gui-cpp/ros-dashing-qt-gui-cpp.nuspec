@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ros-dashing-qt-gui-cpp</id>
+    <version>1.0.6</version>
+    <title>ros-dashing-qt-gui-cpp</title>
+    <authors>Dirk Thomas</authors>
+    <owners>OSRF</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>qt_gui_cpp provides the foundation for C++-bindings for qt_gui and creates bindings for every generator available.
+ At least one specific binding must be available in order to use C++-plugins.</description>
+<dependencies>
+      <dependency id="ros-dashing-pluginlib"/>
+      <dependency id="ros-dashing-qt-gui"/>
+      <dependency id="ros-dashing-tinyxml2-vendor"/>
+      <dependency id="ros-dashing-ros-workspace"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

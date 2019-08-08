@@ -1,4 +1,0 @@
-Source: ros-dashing-rosidl-typesupport-opensplice-c
-Version: 0.7.1
-Description: Generate the C interfaces for PrismTech OpenSplice.
-Build-Depends:

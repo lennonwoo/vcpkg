@@ -1,4 +1,0 @@
-Source: ros-dashing-camera-calibration-parsers
-Version: 2.1.1
-Description: camera_calibration_parsers contains routines for reading and writing camera calibration parameters.
-Build-Depends:

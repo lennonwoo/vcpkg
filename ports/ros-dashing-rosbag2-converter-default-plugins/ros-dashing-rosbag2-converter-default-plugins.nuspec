@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ros-dashing-rosbag2-converter-default-plugins</id>
+    <version>0.1.3</version>
+    <title>ros-dashing-rosbag2-converter-default-plugins</title>
+    <authors>Karsten Knese</authors>
+    <owners>OSRF</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package containing default plugins for format converters</description>
+<dependencies>
+      <dependency id="ros-dashing-ament-index-cpp"/>
+      <dependency id="ros-dashing-pluginlib"/>
+      <dependency id="ros-dashing-poco-vendor"/>
+      <dependency id="ros-dashing-rcutils"/>
+      <dependency id="ros-dashing-rmw"/>
+      <dependency id="ros-dashing-rosbag2"/>
+      <dependency id="ros-dashing-rosidl-generator-cpp"/>
+      <dependency id="ros-dashing-ros-workspace"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

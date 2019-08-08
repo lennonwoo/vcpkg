@@ -1,4 +1,0 @@
-Source: ros-dashing-nmea-msgs
-Version: 2.0.0
-Description: The nmea_msgs package contains messages related to data in the NMEA format.
-Build-Depends:

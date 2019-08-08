@@ -1,4 +1,0 @@
-Source: ros-dashing-realsense-ros2-camera
-Version: 2.0.4
-Description: The realsense_ros2_camera package
-Build-Depends:

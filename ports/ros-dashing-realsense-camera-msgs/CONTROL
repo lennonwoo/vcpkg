@@ -1,4 +1,0 @@
-Source: ros-dashing-realsense-camera-msgs
-Version: 2.0.4
-Description: A package containing realsense camera messages definitions.
-Build-Depends:

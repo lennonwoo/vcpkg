@@ -1,4 +1,0 @@
-Source: ros-dashing-desktop
-Version: 0.7.2
-Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
-Build-Depends:

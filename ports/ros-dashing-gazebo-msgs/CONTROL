@@ -1,4 +1,0 @@
-Source: ros-dashing-gazebo-msgs
-Version: 3.3.1
-Description: Message and service data structures for interacting with Gazebo from ROS2.
-Build-Depends:

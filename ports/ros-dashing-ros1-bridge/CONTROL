@@ -1,4 +1,0 @@
-Source: ros-dashing-ros1-bridge
-Version: 0.7.2
-Description: A simple bridge between ROS 1 and ROS 2
-Build-Depends:

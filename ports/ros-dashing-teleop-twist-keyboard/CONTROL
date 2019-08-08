@@ -1,4 +1,0 @@
-Source: ros-dashing-teleop-twist-keyboard
-Version: 2.3.0
-Description: A robot-agnostic teleoperation node to convert keyboard commands to Twist messages.
-Build-Depends:

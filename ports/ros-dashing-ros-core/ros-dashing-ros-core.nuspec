@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ros-dashing-ros-core</id>
+    <version>0.7.2</version>
+    <title>ros-dashing-ros-core</title>
+    <authors>Steven! Ragnarök</authors>
+    <owners>OSRF</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A package to aggregate the packages required to use publish / subscribe, services, generate messages and other core ROS concepts.</description>
+<dependencies>
+      <dependency id="ros-dashing-ament-cmake"/>
+      <dependency id="ros-dashing-ament-cmake-auto"/>
+      <dependency id="ros-dashing-ament-cmake-gmock"/>
+      <dependency id="ros-dashing-ament-cmake-gtest"/>
+      <dependency id="ros-dashing-ament-cmake-pytest"/>
+      <dependency id="ros-dashing-ament-cmake-ros"/>
+      <dependency id="ros-dashing-ament-index-cpp"/>
+      <dependency id="ros-dashing-ament-index-python"/>
+      <dependency id="ros-dashing-ament-lint-auto"/>
+      <dependency id="ros-dashing-ament-lint-common"/>
+      <dependency id="ros-dashing-class-loader"/>
+      <dependency id="ros-dashing-common-interfaces"/>
+      <dependency id="ros-dashing-pluginlib"/>
+      <dependency id="ros-dashing-rcl-lifecycle"/>
+      <dependency id="ros-dashing-rclcpp"/>
+      <dependency id="ros-dashing-rclcpp-lifecycle"/>
+      <dependency id="ros-dashing-rclpy"/>
+      <dependency id="ros-dashing-ros-environment"/>
+      <dependency id="ros-dashing-ros2action"/>
+      <dependency id="ros-dashing-ros2component"/>
+      <dependency id="ros-dashing-ros2launch"/>
+      <dependency id="ros-dashing-ros2lifecycle"/>
+      <dependency id="ros-dashing-ros2msg"/>
+      <dependency id="ros-dashing-ros2multicast"/>
+      <dependency id="ros-dashing-ros2node"/>
+      <dependency id="ros-dashing-ros2param"/>
+      <dependency id="ros-dashing-ros2pkg"/>
+      <dependency id="ros-dashing-ros2run"/>
+      <dependency id="ros-dashing-ros2service"/>
+      <dependency id="ros-dashing-ros2srv"/>
+      <dependency id="ros-dashing-ros2topic"/>
+      <dependency id="ros-dashing-rosidl-default-generators"/>
+      <dependency id="ros-dashing-rosidl-default-runtime"/>
+      <dependency id="ros-dashing-sros2"/>
+      <dependency id="ros-dashing-sros2-cmake"/>
+      <dependency id="ros-dashing-ros-workspace"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
