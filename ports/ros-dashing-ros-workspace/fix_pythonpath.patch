@@ -1,0 +1,15 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 8d7675c..cdcf8e4 100755
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -7,8 +7,8 @@ find_package(ament_cmake_core REQUIRED)
+ execute_process(COMMAND python3 -c "from distutils import sysconfig; print(sysconfig.get_python_version())" OUTPUT_VARIABLE PYTHON_MAJOR_MINOR OUTPUT_STRIP_TRAILING_WHITESPACE)
+ 
+ # Locate ament_package template files.
+-set(PYTHON_INSTALL_DIR "lib/python${PYTHON_MAJOR_MINOR}/site-packages")
+-set(AMENT_PACKAGE_TEMPLATE_DIR "${CMAKE_INSTALL_PREFIX}/${PYTHON_INSTALL_DIR}/ament_package/template")
++set(PYTHON_INSTALL_DIR "Lib/site-packages")
++set(AMENT_PACKAGE_TEMPLATE_DIR "${AMENT_PREFIX_PATH}/${PYTHON_INSTALL_DIR}/ament_package/template")
+ set(BINARY_PATH_HOOK "${AMENT_PACKAGE_TEMPLATE_DIR}/environment_hook/path.sh")
+ set(LIBRARY_PATH_HOOK "${AMENT_PACKAGE_TEMPLATE_DIR}/environment_hook/library_path.sh")
+ set(PYTHONPATH_HOOK "${AMENT_PACKAGE_TEMPLATE_DIR}/environment_hook/pythonpath.sh.in")

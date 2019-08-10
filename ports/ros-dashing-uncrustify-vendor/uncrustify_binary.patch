@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 9cbd83d..a2bac66 100755
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -54,7 +54,7 @@ macro(build_uncrustify)
+       ${extra_cmake_args}
+       -Wno-dev
+   PATCH_COMMAND
+-    ${patch_exe} -p1 -N < ${CMAKE_CURRENT_SOURCE_DIR}/install-patch.diff
++    ${patch_exe} -p1 -N < ${CMAKE_CURRENT_SOURCE_DIR}/install-patch.diff --binary
+   )
+ 
+   # The external project will install to the build folder, but we'll install that on make install.

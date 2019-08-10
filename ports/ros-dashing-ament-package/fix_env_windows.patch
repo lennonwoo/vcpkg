@@ -1,0 +1,44 @@
+diff --git a/ament_package/template/prefix_level/local_setup.bat.in b/ament_package/template/prefix_level/local_setup.bat.in
+index a93d8a6..7386d01 100755
+--- a/ament_package/template/prefix_level/local_setup.bat.in
++++ b/ament_package/template/prefix_level/local_setup.bat.in
+@@ -3,6 +3,8 @@
+ 
+ :: get all packages in topological order
+ call:ament_get_ordered_packages _ordered_packages "%~dp0"
++call:append_unique_value PYTHONPATH "%~dp0\Lib\site-packages"
++call:append_unique_value PATH "%~dp0\Scripts"
+ 
+ :: source local_setup.bat file for each package
+ if "%_ordered_packages%" NEQ "" (
+@@ -46,3 +48,30 @@ goto:eof
+   if "%AMENT_TRACE_SETUP_FILES%" NEQ "" echo call "%~1"
+   if exist "%~1" call "%~1%"
+ goto:eof
++
++:append_unique_value
++  setlocal enabledelayedexpansion
++  :: arguments
++  set "listname=%~1"
++  set "value=%~2"
++  :: expand the list variable
++  set "list=!%listname%!"
++  :: check if the list contains the value
++  set "is_duplicate="
++  if "%list%" NEQ "" (
++    for %%v in ("%list:;=";"%") do (
++      if "%%~v" == "%value%" set "is_duplicate=1"
++    )
++  )
++  :: if it is not a duplicate append it
++  if "%is_duplicate%" == "" (
++    :: if not empty, append a semi-colon
++    if "!list!" NEQ "" set "list=!list!;"
++    :: append the value
++    set "list=!list!%value%"
++  )
++  endlocal & (
++    :: set result variable in parent scope
++    set "%~1=%list%"
++  )
++goto:eof

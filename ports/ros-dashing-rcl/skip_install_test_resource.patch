@@ -1,0 +1,16 @@
+diff --git a/test/CMakeLists.txt b/test/CMakeLists.txt
+index 818c4b1..38fddce 100755
+--- a/test/CMakeLists.txt
++++ b/test/CMakeLists.txt
+@@ -307,8 +307,4 @@ rcl_add_custom_gtest(test_security_directory
+   APPEND_LIBRARY_DIRS ${extra_lib_dirs}
+   LIBRARIES ${PROJECT_NAME}
+   AMENT_DEPENDENCIES "osrf_testing_tools_cpp"
+-)
+-
+-# Install test resources
+-install(DIRECTORY ${test_resources_dir_name}
+-        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+\ No newline at end of file
++)
+\ No newline at end of file

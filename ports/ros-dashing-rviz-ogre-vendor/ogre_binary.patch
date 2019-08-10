@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 2e3effe..65bc8b6 100755
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -177,7 +177,7 @@ macro(build_ogre)
+       ${extra_cmake_args}
+       -Wno-dev
+     PATCH_COMMAND
+-      ${patch_exe} -p1 -N < ${CMAKE_CURRENT_SOURCE_DIR}/ogre-ca665a6-patch.diff
++      ${patch_exe} -p1 -N < ${CMAKE_CURRENT_SOURCE_DIR}/ogre-ca665a6-patch.diff --binary
+   )
+ 
+   if(BUILDING_FREETYPE_LOCALLY)
