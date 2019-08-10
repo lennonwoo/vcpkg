@@ -8,10 +8,11 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A package containing some message definitions which describe geometric shapes.</description>
-<dependencies>
-      <dependency id="ros-dashing-geometry-msgs"/>
-      <dependency id="ros-dashing-rosidl-default-runtime"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-geometry-msgs"/>
+		<dependency id="ros-dashing-rosidl-default-runtime"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

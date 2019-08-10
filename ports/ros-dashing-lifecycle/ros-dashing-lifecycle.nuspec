@@ -8,12 +8,13 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Package containing demos for lifecycle implementation</description>
-<dependencies>
-      <dependency id="ros-dashing-lifecycle-msgs"/>
-      <dependency id="ros-dashing-rclcpp-lifecycle"/>
-      <dependency id="ros-dashing-ros2run"/>
-      <dependency id="ros-dashing-std-msgs"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-lifecycle-msgs"/>
+		<dependency id="ros-dashing-rclcpp-lifecycle"/>
+		<dependency id="ros-dashing-ros2run"/>
+		<dependency id="ros-dashing-std-msgs"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

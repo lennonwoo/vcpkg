@@ -8,8 +8,9 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provide CMake module with extra functionality for Python.</description>
-<dependencies>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

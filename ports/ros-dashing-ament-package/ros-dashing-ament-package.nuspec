@@ -8,7 +8,8 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The parser for the manifest files in the ament buildsystem.</description>
-<dependencies>
+    <dependencies>
+
     </dependencies>
   </metadata>
   <files>

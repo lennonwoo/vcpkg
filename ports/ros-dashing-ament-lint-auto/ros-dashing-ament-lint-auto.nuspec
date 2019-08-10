@@ -8,10 +8,11 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The auto-magic functions for ease to use of the ament linters in CMake.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-cmake-core"/>
-      <dependency id="ros-dashing-ament-cmake-test"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-cmake-core" version="0.7.1"/>
+		<dependency id="ros-dashing-ament-cmake-test"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

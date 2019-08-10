@@ -5,13 +5,13 @@ set(VCPKG_BUILD_TYPE release)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO gsoc-bloom-windows/launch_ros-release
-    REF vcpkg/ros-dashing-launch-testing-ros_0.8.4-6_10
+    REF vcpkg/ros-dashing-launch-testing-ros_0.8.4-10_10
 )
 
 find_package(PythonInterp 3)
 
 if (${PYTHONINTERP_FOUND})
-    set(SETUP_INSTALL_PREFIX "${CURRENT_PACKAGES_DIR}/opt/ros/dashing")
+    set(SETUP_INSTALL_PREFIX "${CURRENT_PACKAGES_DIR}")
     set(SETUP_INSTALL_PYTHONPATH "${SETUP_INSTALL_PREFIX}/Lib/site-packages")
     file(TO_NATIVE_PATH "${SETUP_INSTALL_PREFIX}" SETUP_INSTALL_PREFIX)
     file(TO_NATIVE_PATH "${SETUP_INSTALL_PYTHONPATH}" SETUP_INSTALL_PYTHONPATH)

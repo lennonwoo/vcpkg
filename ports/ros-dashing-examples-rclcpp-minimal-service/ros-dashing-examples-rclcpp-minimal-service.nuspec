@@ -8,10 +8,11 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A minimal service server which adds two numbers</description>
-<dependencies>
-      <dependency id="ros-dashing-example-interfaces"/>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-example-interfaces"/>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

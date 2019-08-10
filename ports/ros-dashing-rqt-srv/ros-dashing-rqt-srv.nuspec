@@ -9,12 +9,13 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A Python GUI plugin for introspecting available ROS message types.
  Note that the srvs available through this plugin is the ones that are stored on your machine, not on the ROS core your rqt instance connects to.</description>
-<dependencies>
-      <dependency id="ros-dashing-rclpy"/>
-      <dependency id="ros-dashing-rqt-gui"/>
-      <dependency id="ros-dashing-rqt-gui-py"/>
-      <dependency id="ros-dashing-rqt-msg"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-rclpy"/>
+		<dependency id="ros-dashing-rqt-gui"/>
+		<dependency id="ros-dashing-rqt-gui-py"/>
+		<dependency id="ros-dashing-rqt-msg"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

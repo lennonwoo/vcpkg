@@ -8,17 +8,18 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The component command for ROS 2 command line tools.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-index-python"/>
-      <dependency id="ros-dashing-composition-interfaces"/>
-      <dependency id="ros-dashing-rcl-interfaces"/>
-      <dependency id="ros-dashing-rclcpp-components"/>
-      <dependency id="ros-dashing-rclpy"/>
-      <dependency id="ros-dashing-ros2cli"/>
-      <dependency id="ros-dashing-ros2node"/>
-      <dependency id="ros-dashing-ros2param"/>
-      <dependency id="ros-dashing-ros2pkg"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-index-python"/>
+		<dependency id="ros-dashing-composition-interfaces"/>
+		<dependency id="ros-dashing-rcl-interfaces"/>
+		<dependency id="ros-dashing-rclcpp-components"/>
+		<dependency id="ros-dashing-rclpy"/>
+		<dependency id="ros-dashing-ros2cli"/>
+		<dependency id="ros-dashing-ros2node"/>
+		<dependency id="ros-dashing-ros2param"/>
+		<dependency id="ros-dashing-ros2pkg"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

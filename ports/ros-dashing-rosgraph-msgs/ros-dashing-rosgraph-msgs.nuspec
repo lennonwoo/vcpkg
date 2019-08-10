@@ -9,10 +9,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Messages relating to the ROS Computation Graph.
  These are generally considered to be low-level messages that end users do not interact with.</description>
-<dependencies>
-      <dependency id="ros-dashing-builtin-interfaces"/>
-      <dependency id="ros-dashing-rosidl-default-runtime"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-builtin-interfaces"/>
+		<dependency id="ros-dashing-rosidl-default-runtime"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

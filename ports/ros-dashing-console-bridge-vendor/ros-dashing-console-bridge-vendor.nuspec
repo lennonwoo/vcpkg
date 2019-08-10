@@ -9,8 +9,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Wrapper around console_bridge, providing nothing but a dependency on console_bridge, on some systems.
  On others, it provides an ExternalProject build of console_bridge.</description>
-<dependencies>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

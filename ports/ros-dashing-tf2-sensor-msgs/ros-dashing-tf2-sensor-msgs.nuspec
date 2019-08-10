@@ -9,11 +9,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Small lib to transform sensor_msgs with tf.
  Most notably, PointCloud2</description>
-<dependencies>
-      <dependency id="ros-dashing-sensor-msgs"/>
-      <dependency id="ros-dashing-tf2"/>
-      <dependency id="ros-dashing-tf2-ros"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-sensor-msgs"/>
+		<dependency id="ros-dashing-tf2"/>
+		<dependency id="ros-dashing-tf2-ros"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

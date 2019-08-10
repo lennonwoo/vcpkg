@@ -8,10 +8,11 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Example plugin for RViz - documents and tests RViz plugin development</description>
-<dependencies>
-      <dependency id="ros-dashing-resource-retriever"/>
-      <dependency id="ros-dashing-rviz-rendering"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-resource-retriever"/>
+		<dependency id="ros-dashing-rviz-rendering"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

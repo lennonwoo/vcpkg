@@ -8,9 +8,10 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>qt_dotgraph provides helpers to work with dot graphs.</description>
-<dependencies>
-      <dependency id="ros-dashing-python-qt-binding"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-python-qt-binding" version="0.3.0"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

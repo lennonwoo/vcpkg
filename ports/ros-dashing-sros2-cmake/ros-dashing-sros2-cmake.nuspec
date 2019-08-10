@@ -8,10 +8,11 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Cmake macros to configure security for nodes</description>
-<dependencies>
-      <dependency id="ros-dashing-ros2cli"/>
-      <dependency id="ros-dashing-sros2"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ros2cli"/>
+		<dependency id="ros-dashing-sros2"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

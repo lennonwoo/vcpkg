@@ -1,4 +1,0 @@
-Source: ros-dashing-pendulum-control
-Version: 0.7.8
-Description: Demonstrates ROS 2's realtime capabilities with a simulated inverted pendulum.
-Build-Depends:

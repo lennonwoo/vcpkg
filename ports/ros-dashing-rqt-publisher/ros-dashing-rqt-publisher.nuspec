@@ -8,13 +8,14 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>rqt_publisher provides a GUI plugin for publishing arbitrary messages with fixed or computed field values.</description>
-<dependencies>
-      <dependency id="ros-dashing-python-qt-binding"/>
-      <dependency id="ros-dashing-qt-gui-py-common"/>
-      <dependency id="ros-dashing-rqt-gui"/>
-      <dependency id="ros-dashing-rqt-gui-py"/>
-      <dependency id="ros-dashing-rqt-py-common"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-python-qt-binding" version="0.2.19"/>
+		<dependency id="ros-dashing-qt-gui-py-common"/>
+		<dependency id="ros-dashing-rqt-gui"/>
+		<dependency id="ros-dashing-rqt-gui-py"/>
+		<dependency id="ros-dashing-rqt-py-common"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

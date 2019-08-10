@@ -8,10 +8,11 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Demonstrations of intra process communication.</description>
-<dependencies>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-sensor-msgs"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-sensor-msgs"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

@@ -8,11 +8,12 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>ROS2 independent storage format to store serialized ROS2 messages</description>
-<dependencies>
-      <dependency id="ros-dashing-pluginlib"/>
-      <dependency id="ros-dashing-rcutils"/>
-      <dependency id="ros-dashing-yaml-cpp-vendor"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-pluginlib"/>
+		<dependency id="ros-dashing-rcutils"/>
+		<dependency id="ros-dashing-yaml-cpp-vendor"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

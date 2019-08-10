@@ -8,17 +8,18 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A package which extends 'ros_core' and includes other basic functionalities like tf2 and urdf.</description>
-<dependencies>
-      <dependency id="ros-dashing-kdl-parser"/>
-      <dependency id="ros-dashing-robot-state-publisher"/>
-      <dependency id="ros-dashing-ros-core"/>
-      <dependency id="ros-dashing-tf2"/>
-      <dependency id="ros-dashing-tf2-eigen"/>
-      <dependency id="ros-dashing-tf2-geometry-msgs"/>
-      <dependency id="ros-dashing-tf2-kdl"/>
-      <dependency id="ros-dashing-tf2-ros"/>
-      <dependency id="ros-dashing-urdf"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-kdl-parser"/>
+		<dependency id="ros-dashing-robot-state-publisher"/>
+		<dependency id="ros-dashing-ros-core"/>
+		<dependency id="ros-dashing-tf2"/>
+		<dependency id="ros-dashing-tf2-eigen"/>
+		<dependency id="ros-dashing-tf2-geometry-msgs"/>
+		<dependency id="ros-dashing-tf2-kdl"/>
+		<dependency id="ros-dashing-tf2-ros"/>
+		<dependency id="ros-dashing-urdf"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

@@ -8,12 +8,13 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library which provides the 3D rendering functionality in rviz.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-index-cpp"/>
-      <dependency id="ros-dashing-resource-retriever"/>
-      <dependency id="ros-dashing-rviz-assimp-vendor"/>
-      <dependency id="ros-dashing-rviz-ogre-vendor"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-index-cpp"/>
+		<dependency id="ros-dashing-resource-retriever"/>
+		<dependency id="ros-dashing-rviz-assimp-vendor"/>
+		<dependency id="ros-dashing-rviz-ogre-vendor"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

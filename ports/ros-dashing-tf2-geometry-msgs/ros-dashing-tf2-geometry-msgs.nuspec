@@ -8,12 +8,13 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>tf2_geometry_msgs</description>
-<dependencies>
-      <dependency id="ros-dashing-geometry-msgs"/>
-      <dependency id="ros-dashing-orocos-kdl"/>
-      <dependency id="ros-dashing-tf2"/>
-      <dependency id="ros-dashing-tf2-ros"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-geometry-msgs"/>
+		<dependency id="ros-dashing-orocos-kdl"/>
+		<dependency id="ros-dashing-tf2"/>
+		<dependency id="ros-dashing-tf2-ros"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

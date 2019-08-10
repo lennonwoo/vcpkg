@@ -8,12 +8,13 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Package containing tools for dynamically loadable components</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-index-cpp"/>
-      <dependency id="ros-dashing-class-loader"/>
-      <dependency id="ros-dashing-composition-interfaces"/>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-index-cpp"/>
+		<dependency id="ros-dashing-class-loader"/>
+		<dependency id="ros-dashing-composition-interfaces"/>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

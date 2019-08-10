@@ -8,12 +8,13 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This package defines messages commonly used in mapping packages.</description>
-<dependencies>
-      <dependency id="ros-dashing-nav-msgs"/>
-      <dependency id="ros-dashing-rosidl-default-runtime"/>
-      <dependency id="ros-dashing-sensor-msgs"/>
-      <dependency id="ros-dashing-std-msgs"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-nav-msgs"/>
+		<dependency id="ros-dashing-rosidl-default-runtime"/>
+		<dependency id="ros-dashing-sensor-msgs"/>
+		<dependency id="ros-dashing-std-msgs"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

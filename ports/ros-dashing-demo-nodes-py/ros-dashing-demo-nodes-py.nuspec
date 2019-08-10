@@ -8,11 +8,12 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Python nodes which were previously in the ros2/examples repository but are now just used for demo purposes.</description>
-<dependencies>
-      <dependency id="ros-dashing-example-interfaces"/>
-      <dependency id="ros-dashing-rclpy"/>
-      <dependency id="ros-dashing-std-msgs"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-example-interfaces"/>
+		<dependency id="ros-dashing-rclpy"/>
+		<dependency id="ros-dashing-std-msgs"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

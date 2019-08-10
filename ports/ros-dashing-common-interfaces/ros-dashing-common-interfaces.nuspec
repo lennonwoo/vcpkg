@@ -8,20 +8,21 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>common_interfaces contains messages and services that are widely used by other ROS packages.</description>
-<dependencies>
-      <dependency id="ros-dashing-actionlib-msgs"/>
-      <dependency id="ros-dashing-builtin-interfaces"/>
-      <dependency id="ros-dashing-diagnostic-msgs"/>
-      <dependency id="ros-dashing-geometry-msgs"/>
-      <dependency id="ros-dashing-nav-msgs"/>
-      <dependency id="ros-dashing-sensor-msgs"/>
-      <dependency id="ros-dashing-shape-msgs"/>
-      <dependency id="ros-dashing-std-msgs"/>
-      <dependency id="ros-dashing-std-srvs"/>
-      <dependency id="ros-dashing-stereo-msgs"/>
-      <dependency id="ros-dashing-trajectory-msgs"/>
-      <dependency id="ros-dashing-visualization-msgs"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-actionlib-msgs"/>
+		<dependency id="ros-dashing-builtin-interfaces"/>
+		<dependency id="ros-dashing-diagnostic-msgs"/>
+		<dependency id="ros-dashing-geometry-msgs"/>
+		<dependency id="ros-dashing-nav-msgs"/>
+		<dependency id="ros-dashing-sensor-msgs"/>
+		<dependency id="ros-dashing-shape-msgs"/>
+		<dependency id="ros-dashing-std-msgs"/>
+		<dependency id="ros-dashing-std-srvs"/>
+		<dependency id="ros-dashing-stereo-msgs"/>
+		<dependency id="ros-dashing-trajectory-msgs"/>
+		<dependency id="ros-dashing-visualization-msgs"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

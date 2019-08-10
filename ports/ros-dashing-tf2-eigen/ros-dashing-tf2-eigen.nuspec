@@ -8,11 +8,12 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>tf2_eigen</description>
-<dependencies>
-      <dependency id="ros-dashing-geometry-msgs"/>
-      <dependency id="ros-dashing-tf2"/>
-      <dependency id="ros-dashing-tf2-ros"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-geometry-msgs"/>
+		<dependency id="ros-dashing-tf2"/>
+		<dependency id="ros-dashing-tf2-ros"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

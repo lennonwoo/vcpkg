@@ -9,11 +9,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This package contains a C++ parser for the Unified Robot Description Format (URDF), which is an XML format for representing a robot model.
  The code API of the parser has been through our review process and will remain backwards compatible in future releases.</description>
-<dependencies>
-      <dependency id="ros-dashing-tinyxml-vendor"/>
-      <dependency id="ros-dashing-urdfdom"/>
-      <dependency id="ros-dashing-urdfdom-headers"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-tinyxml-vendor"/>
+		<dependency id="ros-dashing-urdfdom"/>
+		<dependency id="ros-dashing-urdfdom-headers"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

@@ -1,4 +1,0 @@
-Source: ros-dashing-pendulum-msgs
-Version: 0.7.8
-Description: Custom messages for real-time pendulum control.
-Build-Depends:

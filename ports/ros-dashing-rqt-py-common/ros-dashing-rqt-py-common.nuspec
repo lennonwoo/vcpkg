@@ -9,12 +9,13 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>rqt_py_common provides common functionality for rqt plugins written in Python.
  Despite no plugin is provided, this package is part of the rqt_common_plugins repository to keep refactoring generic functionality from these common plugins into this package as easy as possible. Functionality included in this package should cover generic ROS concepts and should not introduce any special dependencies beside &quot;ros_base&quot;.</description>
-<dependencies>
-      <dependency id="ros-dashing-python-qt-binding"/>
-      <dependency id="ros-dashing-qt-gui"/>
-      <dependency id="ros-dashing-rclpy"/>
-      <dependency id="ros-dashing-rosidl-default-runtime"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-python-qt-binding" version="0.3.4"/>
+		<dependency id="ros-dashing-qt-gui"/>
+		<dependency id="ros-dashing-rclpy"/>
+		<dependency id="ros-dashing-rosidl-default-runtime"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

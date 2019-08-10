@@ -9,12 +9,13 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This package contains a class for converting from a 2D laser scan as defined by sensor_msgs/LaserScan into a point cloud as defined by sensor_msgs/PointCloud or sensor_msgs/PointCloud2.
  In particular, it contains functionality to account for the skew resulting from moving robots or tilting laser scanners.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-cmake"/>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-sensor-msgs"/>
-      <dependency id="ros-dashing-tf2"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-cmake"/>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-sensor-msgs"/>
+		<dependency id="ros-dashing-tf2"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

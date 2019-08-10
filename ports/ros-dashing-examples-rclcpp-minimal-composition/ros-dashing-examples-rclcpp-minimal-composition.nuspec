@@ -8,11 +8,12 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Minimalist examples of composing nodes in the same process</description>
-<dependencies>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-rclcpp-components"/>
-      <dependency id="ros-dashing-std-msgs"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-rclcpp-components"/>
+		<dependency id="ros-dashing-std-msgs"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

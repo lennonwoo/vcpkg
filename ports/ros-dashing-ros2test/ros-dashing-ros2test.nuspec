@@ -8,13 +8,14 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The test command for ROS 2 launch tests.</description>
-<dependencies>
-      <dependency id="ros-dashing-launch"/>
-      <dependency id="ros-dashing-launch-ros"/>
-      <dependency id="ros-dashing-launch-testing"/>
-      <dependency id="ros-dashing-launch-testing-ros"/>
-      <dependency id="ros-dashing-ros2cli"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-launch"/>
+		<dependency id="ros-dashing-launch-ros"/>
+		<dependency id="ros-dashing-launch-testing"/>
+		<dependency id="ros-dashing-launch-testing-ros"/>
+		<dependency id="ros-dashing-ros2cli"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

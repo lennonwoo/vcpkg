@@ -8,11 +8,12 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Minimal action client examples</description>
-<dependencies>
-      <dependency id="ros-dashing-example-interfaces"/>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-rclcpp-action"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-example-interfaces"/>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-rclcpp-action"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

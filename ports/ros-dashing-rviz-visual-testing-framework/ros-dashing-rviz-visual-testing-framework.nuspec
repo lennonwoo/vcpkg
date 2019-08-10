@@ -8,10 +8,11 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>3D testing framework for RViz.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-cmake-gtest"/>
-      <dependency id="ros-dashing-rviz-common"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-cmake-gtest"/>
+		<dependency id="ros-dashing-rviz-common"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

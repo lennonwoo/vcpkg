@@ -8,17 +8,18 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>ROSBag2 client library</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-index-cpp"/>
-      <dependency id="ros-dashing-pluginlib"/>
-      <dependency id="ros-dashing-poco-vendor"/>
-      <dependency id="ros-dashing-rcutils"/>
-      <dependency id="ros-dashing-rosbag2-storage"/>
-      <dependency id="ros-dashing-rosidl-generator-cpp"/>
-      <dependency id="ros-dashing-rosidl-typesupport-cpp"/>
-      <dependency id="ros-dashing-rosidl-typesupport-introspection-cpp"/>
-      <dependency id="ros-dashing-shared-queues-vendor"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-index-cpp"/>
+		<dependency id="ros-dashing-pluginlib"/>
+		<dependency id="ros-dashing-poco-vendor"/>
+		<dependency id="ros-dashing-rcutils"/>
+		<dependency id="ros-dashing-rosbag2-storage"/>
+		<dependency id="ros-dashing-rosidl-generator-cpp"/>
+		<dependency id="ros-dashing-rosidl-typesupport-cpp"/>
+		<dependency id="ros-dashing-rosidl-typesupport-introspection-cpp"/>
+		<dependency id="ros-dashing-shared-queues-vendor"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

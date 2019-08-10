@@ -8,11 +8,12 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The CMake functionality to invoke code generation for ROS interface files.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-cmake"/>
-      <dependency id="ros-dashing-rosidl-adapter"/>
-      <dependency id="ros-dashing-rosidl-parser"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-cmake"/>
+		<dependency id="ros-dashing-rosidl-adapter"/>
+		<dependency id="ros-dashing-rosidl-parser"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

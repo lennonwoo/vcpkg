@@ -8,12 +8,13 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>rqt_gui provides the main to start an instance of the ROS integrated graphical user interface provided by qt_gui.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-index-python"/>
-      <dependency id="ros-dashing-python-qt-binding"/>
-      <dependency id="ros-dashing-qt-gui"/>
-      <dependency id="ros-dashing-rclpy"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-index-python"/>
+		<dependency id="ros-dashing-python-qt-binding"/>
+		<dependency id="ros-dashing-qt-gui" version="0.3.0"/>
+		<dependency id="ros-dashing-rclpy"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

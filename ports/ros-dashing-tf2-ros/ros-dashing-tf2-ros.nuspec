@@ -8,14 +8,15 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This package contains the ROS bindings for the tf2 library, for both Python and C++.</description>
-<dependencies>
-      <dependency id="ros-dashing-geometry-msgs"/>
-      <dependency id="ros-dashing-message-filters"/>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-std-msgs"/>
-      <dependency id="ros-dashing-tf2"/>
-      <dependency id="ros-dashing-tf2-msgs"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-geometry-msgs"/>
+		<dependency id="ros-dashing-message-filters"/>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-std-msgs"/>
+		<dependency id="ros-dashing-tf2"/>
+		<dependency id="ros-dashing-tf2-msgs"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

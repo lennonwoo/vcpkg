@@ -8,11 +8,12 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>rqt_service_caller provides a GUI plugin for calling arbitrary services.</description>
-<dependencies>
-      <dependency id="ros-dashing-rqt-gui"/>
-      <dependency id="ros-dashing-rqt-gui-py"/>
-      <dependency id="ros-dashing-rqt-py-common"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-rqt-gui"/>
+		<dependency id="ros-dashing-rqt-gui-py"/>
+		<dependency id="ros-dashing-rqt-py-common"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

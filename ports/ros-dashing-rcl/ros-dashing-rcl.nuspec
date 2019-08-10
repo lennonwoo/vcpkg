@@ -9,17 +9,18 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The ROS client library common implementation.
  This package contains an API which builds on the ROS middleware API and is optionally built upon by the other ROS client libraries.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-cmake"/>
-      <dependency id="ros-dashing-rcl-interfaces"/>
-      <dependency id="ros-dashing-rcl-logging-noop"/>
-      <dependency id="ros-dashing-rcutils"/>
-      <dependency id="ros-dashing-rmw"/>
-      <dependency id="ros-dashing-rmw-implementation"/>
-      <dependency id="ros-dashing-rosidl-default-runtime"/>
-      <dependency id="ros-dashing-rosidl-generator-c"/>
-      <dependency id="ros-dashing-tinydir-vendor"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-cmake"/>
+		<dependency id="ros-dashing-rcl-interfaces"/>
+		<dependency id="ros-dashing-rcl-logging-noop"/>
+		<dependency id="ros-dashing-rcutils"/>
+		<dependency id="ros-dashing-rmw"/>
+		<dependency id="ros-dashing-rmw-implementation"/>
+		<dependency id="ros-dashing-rosidl-default-runtime"/>
+		<dependency id="ros-dashing-rosidl-generator-c"/>
+		<dependency id="ros-dashing-tinydir-vendor"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

@@ -8,23 +8,24 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Common rviz API, used by rviz plugins and applications.</description>
-<dependencies>
-      <dependency id="ros-dashing-geometry-msgs"/>
-      <dependency id="ros-dashing-pluginlib"/>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-resource-retriever"/>
-      <dependency id="ros-dashing-rviz-assimp-vendor"/>
-      <dependency id="ros-dashing-rviz-ogre-vendor"/>
-      <dependency id="ros-dashing-rviz-rendering"/>
-      <dependency id="ros-dashing-sensor-msgs"/>
-      <dependency id="ros-dashing-std-msgs"/>
-      <dependency id="ros-dashing-tf2"/>
-      <dependency id="ros-dashing-tf2-geometry-msgs"/>
-      <dependency id="ros-dashing-tf2-ros"/>
-      <dependency id="ros-dashing-tinyxml-vendor"/>
-      <dependency id="ros-dashing-urdf"/>
-      <dependency id="ros-dashing-yaml-cpp-vendor"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-geometry-msgs"/>
+		<dependency id="ros-dashing-pluginlib"/>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-resource-retriever"/>
+		<dependency id="ros-dashing-rviz-assimp-vendor"/>
+		<dependency id="ros-dashing-rviz-ogre-vendor"/>
+		<dependency id="ros-dashing-rviz-rendering"/>
+		<dependency id="ros-dashing-sensor-msgs"/>
+		<dependency id="ros-dashing-std-msgs"/>
+		<dependency id="ros-dashing-tf2"/>
+		<dependency id="ros-dashing-tf2-geometry-msgs"/>
+		<dependency id="ros-dashing-tf2-ros"/>
+		<dependency id="ros-dashing-tinyxml-vendor"/>
+		<dependency id="ros-dashing-urdf"/>
+		<dependency id="ros-dashing-yaml-cpp-vendor"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

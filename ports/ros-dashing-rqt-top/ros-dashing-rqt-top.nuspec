@@ -8,12 +8,13 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>RQT plugin for monitoring ROS processes.</description>
-<dependencies>
-      <dependency id="ros-dashing-python-qt-binding"/>
-      <dependency id="ros-dashing-rclpy"/>
-      <dependency id="ros-dashing-rqt-gui"/>
-      <dependency id="ros-dashing-rqt-gui-py"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-python-qt-binding" version="0.2.19"/>
+		<dependency id="ros-dashing-rclpy"/>
+		<dependency id="ros-dashing-rqt-gui"/>
+		<dependency id="ros-dashing-rqt-gui-py"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

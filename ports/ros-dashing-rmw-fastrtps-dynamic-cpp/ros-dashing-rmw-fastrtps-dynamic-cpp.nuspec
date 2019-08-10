@@ -8,20 +8,21 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Implement the ROS middleware interface using eProsima FastRTPS static code generation in C++.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-cmake"/>
-      <dependency id="ros-dashing-fastcdr"/>
-      <dependency id="ros-dashing-fastrtps"/>
-      <dependency id="ros-dashing-fastrtps-cmake-module"/>
-      <dependency id="ros-dashing-rcutils"/>
-      <dependency id="ros-dashing-rmw"/>
-      <dependency id="ros-dashing-rmw-fastrtps-shared-cpp"/>
-      <dependency id="ros-dashing-rosidl-generator-c"/>
-      <dependency id="ros-dashing-rosidl-typesupport-fastrtps-c"/>
-      <dependency id="ros-dashing-rosidl-typesupport-fastrtps-cpp"/>
-      <dependency id="ros-dashing-rosidl-typesupport-introspection-c"/>
-      <dependency id="ros-dashing-rosidl-typesupport-introspection-cpp"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-cmake"/>
+		<dependency id="ros-dashing-fastcdr"/>
+		<dependency id="ros-dashing-fastrtps"/>
+		<dependency id="ros-dashing-fastrtps-cmake-module"/>
+		<dependency id="ros-dashing-rcutils"/>
+		<dependency id="ros-dashing-rmw"/>
+		<dependency id="ros-dashing-rmw-fastrtps-shared-cpp"/>
+		<dependency id="ros-dashing-rosidl-generator-c"/>
+		<dependency id="ros-dashing-rosidl-typesupport-fastrtps-c"/>
+		<dependency id="ros-dashing-rosidl-typesupport-fastrtps-cpp"/>
+		<dependency id="ros-dashing-rosidl-typesupport-introspection-c"/>
+		<dependency id="ros-dashing-rosidl-typesupport-introspection-cpp"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

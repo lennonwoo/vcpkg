@@ -8,10 +8,11 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Contains the ROS middleware API.</description>
-<dependencies>
-      <dependency id="ros-dashing-rcutils"/>
-      <dependency id="ros-dashing-rosidl-generator-c"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-rcutils"/>
+		<dependency id="ros-dashing-rosidl-generator-c"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

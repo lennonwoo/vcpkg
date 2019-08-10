@@ -8,14 +8,15 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>C++ Demo applications for Quality of Service features</description>
-<dependencies>
-      <dependency id="ros-dashing-example-interfaces"/>
-      <dependency id="ros-dashing-launch-ros"/>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-rcutils"/>
-      <dependency id="ros-dashing-rmw"/>
-      <dependency id="ros-dashing-std-msgs"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-example-interfaces"/>
+		<dependency id="ros-dashing-launch-ros"/>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-rcutils"/>
+		<dependency id="ros-dashing-rmw"/>
+		<dependency id="ros-dashing-std-msgs"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

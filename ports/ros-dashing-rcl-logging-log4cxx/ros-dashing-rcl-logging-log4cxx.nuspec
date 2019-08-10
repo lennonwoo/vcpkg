@@ -8,9 +8,10 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>C API providing common interface to a shared library wrapping 3rd party loggers.</description>
-<dependencies>
-      <dependency id="ros-dashing-rcutils"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-rcutils"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

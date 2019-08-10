@@ -8,17 +8,18 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The list of commonly used linters in the ament buildsytem in CMake.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-cmake-copyright"/>
-      <dependency id="ros-dashing-ament-cmake-core"/>
-      <dependency id="ros-dashing-ament-cmake-cppcheck"/>
-      <dependency id="ros-dashing-ament-cmake-cpplint"/>
-      <dependency id="ros-dashing-ament-cmake-flake8"/>
-      <dependency id="ros-dashing-ament-cmake-lint-cmake"/>
-      <dependency id="ros-dashing-ament-cmake-pep257"/>
-      <dependency id="ros-dashing-ament-cmake-uncrustify"/>
-      <dependency id="ros-dashing-ament-cmake-xmllint"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-cmake-copyright"/>
+		<dependency id="ros-dashing-ament-cmake-core"/>
+		<dependency id="ros-dashing-ament-cmake-cppcheck"/>
+		<dependency id="ros-dashing-ament-cmake-cpplint"/>
+		<dependency id="ros-dashing-ament-cmake-flake8"/>
+		<dependency id="ros-dashing-ament-cmake-lint-cmake"/>
+		<dependency id="ros-dashing-ament-cmake-pep257"/>
+		<dependency id="ros-dashing-ament-cmake-uncrustify"/>
+		<dependency id="ros-dashing-ament-cmake-xmllint"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

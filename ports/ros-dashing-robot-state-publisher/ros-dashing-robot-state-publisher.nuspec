@@ -8,16 +8,17 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>ROS2 version of the robot_state_publisher package</description>
-<dependencies>
-      <dependency id="ros-dashing-geometry-msgs"/>
-      <dependency id="ros-dashing-kdl-parser"/>
-      <dependency id="ros-dashing-orocos-kdl"/>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-sensor-msgs"/>
-      <dependency id="ros-dashing-tf2-ros"/>
-      <dependency id="ros-dashing-urdf"/>
-      <dependency id="ros-dashing-urdfdom-headers"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-geometry-msgs"/>
+		<dependency id="ros-dashing-kdl-parser"/>
+		<dependency id="ros-dashing-orocos-kdl"/>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-sensor-msgs"/>
+		<dependency id="ros-dashing-tf2-ros"/>
+		<dependency id="ros-dashing-urdf"/>
+		<dependency id="ros-dashing-urdfdom-headers"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

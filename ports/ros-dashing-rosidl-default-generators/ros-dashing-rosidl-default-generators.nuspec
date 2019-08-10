@@ -8,17 +8,18 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A configuration package defining the default ROS interface generators.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-cmake-core"/>
-      <dependency id="ros-dashing-rosidl-cmake"/>
-      <dependency id="ros-dashing-rosidl-generator-c"/>
-      <dependency id="ros-dashing-rosidl-generator-cpp"/>
-      <dependency id="ros-dashing-rosidl-generator-py"/>
-      <dependency id="ros-dashing-rosidl-typesupport-c"/>
-      <dependency id="ros-dashing-rosidl-typesupport-cpp"/>
-      <dependency id="ros-dashing-rosidl-typesupport-introspection-c"/>
-      <dependency id="ros-dashing-rosidl-typesupport-introspection-cpp"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ament-cmake-core"/>
+		<dependency id="ros-dashing-rosidl-cmake"/>
+		<dependency id="ros-dashing-rosidl-generator-c"/>
+		<dependency id="ros-dashing-rosidl-generator-cpp"/>
+		<dependency id="ros-dashing-rosidl-generator-py"/>
+		<dependency id="ros-dashing-rosidl-typesupport-c"/>
+		<dependency id="ros-dashing-rosidl-typesupport-cpp"/>
+		<dependency id="ros-dashing-rosidl-typesupport-introspection-c"/>
+		<dependency id="ros-dashing-rosidl-typesupport-introspection-cpp"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

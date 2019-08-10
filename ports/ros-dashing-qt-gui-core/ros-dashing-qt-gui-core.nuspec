@@ -8,13 +8,14 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Integration of the ROS package system and ROS-specific plugins for a Qt-based GUI.</description>
-<dependencies>
-      <dependency id="ros-dashing-qt-dotgraph"/>
-      <dependency id="ros-dashing-qt-gui"/>
-      <dependency id="ros-dashing-qt-gui-app"/>
-      <dependency id="ros-dashing-qt-gui-cpp"/>
-      <dependency id="ros-dashing-qt-gui-py-common"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-qt-dotgraph" version="0.3.0"/>
+		<dependency id="ros-dashing-qt-gui" version="0.3.0"/>
+		<dependency id="ros-dashing-qt-gui-app" version="0.3.0"/>
+		<dependency id="ros-dashing-qt-gui-cpp" version="0.3.0"/>
+		<dependency id="ros-dashing-qt-gui-py-common" version="0.3.0"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

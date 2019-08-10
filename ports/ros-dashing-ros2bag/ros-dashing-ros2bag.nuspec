@@ -8,10 +8,11 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Entry point for rosbag in ROS 2</description>
-<dependencies>
-      <dependency id="ros-dashing-ros2cli"/>
-      <dependency id="ros-dashing-rosbag2-transport"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-ros2cli"/>
+		<dependency id="ros-dashing-rosbag2-transport"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

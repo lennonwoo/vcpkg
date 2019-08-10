@@ -8,12 +8,13 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Layer encapsulating ROS middleware to allow rosbag2 to be used with or without middleware</description>
-<dependencies>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-rmw"/>
-      <dependency id="ros-dashing-rosbag2"/>
-      <dependency id="ros-dashing-shared-queues-vendor"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-rmw"/>
+		<dependency id="ros-dashing-rosbag2"/>
+		<dependency id="ros-dashing-shared-queues-vendor"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

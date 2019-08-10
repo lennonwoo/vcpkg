@@ -8,11 +8,12 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>C++ nodes which access the native handles of the rmw implemenation.</description>
-<dependencies>
-      <dependency id="ros-dashing-rclcpp"/>
-      <dependency id="ros-dashing-rmw-fastrtps-cpp"/>
-      <dependency id="ros-dashing-std-msgs"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-rclcpp"/>
+		<dependency id="ros-dashing-rmw-fastrtps-cpp"/>
+		<dependency id="ros-dashing-std-msgs"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>

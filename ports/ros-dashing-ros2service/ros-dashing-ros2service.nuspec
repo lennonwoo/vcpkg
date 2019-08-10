@@ -8,12 +8,13 @@
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The service command for ROS 2 command line tools.</description>
-<dependencies>
-      <dependency id="ros-dashing-rclpy"/>
-      <dependency id="ros-dashing-ros2cli"/>
-      <dependency id="ros-dashing-ros2srv"/>
-      <dependency id="ros-dashing-rosidl-runtime-py"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <dependencies>
+		<dependency id="ros-dashing-rclpy"/>
+		<dependency id="ros-dashing-ros2cli"/>
+		<dependency id="ros-dashing-ros2srv"/>
+		<dependency id="ros-dashing-rosidl-runtime-py"/>
+		<dependency id="ros-dashing-ros-workspace"/>
+
     </dependencies>
   </metadata>
   <files>
